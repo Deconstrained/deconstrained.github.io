@@ -1,0 +1,346 @@
+{
+    "settings": {
+        "glyphicons" : true
+    },
+    "firstname": "Demitri",
+    "familyname": "Morgan",
+    "linkedin_id": "demitrimorgan",
+    "github_id": "Deconstrained",
+    "bio_data": {
+        "email": "demitri.morgan@gmail.com",
+        "phone": "(831) 332-4329",
+        "website": "http://deconstrained.github.io",
+        "stars": ["Python","PHP","Git","Web Development","Education","Scientific Computing","Physics","Mathematics"],
+        "summary": {
+            "points":[
+                "Self-motivated individual with experience in rapid self-teaching.",
+                "Ability to effectively communicate concepts of technical nature.",
+                "Experienced in both contributing to existing projects and building from scratch."
+            ]
+        },
+        "skills": {
+            "details": [
+                {
+                    "type": "Languages & Frameworks",
+                    "items": [
+                        "Python",
+                        "PHP",
+                        "MySQL",
+                        "Yii Framework",
+                        "JavaScript",
+                        "jQuery",
+                        "HTML5",
+                        "CSS3",
+                        "SASS",
+                        "Foundation",
+                        "WordPress",
+                        "C",
+                        "Fortran 77/90",
+                        "OpenMPI",
+                        "IDL",
+                        "NumPy",
+                        "MatPlotLib"
+                    ]
+                },
+                {
+                    "type": "General Skills",
+                    "items": [
+                        "Scientific Computing",
+                        "Web Development",
+                        "Version Control",
+                        "MVC",
+                        "Unit Testing",
+                        "System Administration",
+                        "Network Configuration",
+                        "Tutoring"
+                    ]
+                },
+                {
+                    "type": "Software",
+                    "items": [
+                        "LAMP",
+                        "Git",
+                        "Linux",
+                        "Vim",
+                        "Asterisk"
+                    ]
+                }
+            ]
+        },
+        "github_projects": {
+            "details": [
+                {
+                    "project_name": "Deconstrained/WorkDivSimAnneal",
+                    "tagline": "Visualization available [on YouTube](https://www.youtube.com/watch?v=ERp0hN4PgeU)",
+                    "description": [
+                        "Two implementations of an algorithm in Python that finds out the best partitioning of a heterogeneous pool of work units.",
+                        "Real-time visualization of the dynamic evolution of the system."
+                    ]
+                },
+                {
+                    "project_name": "Deconstrained/Gummii",
+                    "tagline": "A pet project in Yii Framework with ambitious goals",
+                    "description": [
+                        "100% AJAX-driven pages",
+                        "Themeable using jQuery UI",
+                        "User authentication and authorization",
+                        "Portable/redistributable web application",
+                        "Unit testing environment"
+                    ]
+                },
+                {
+                    "project_name": "Deconstrained/oneunitysb",
+                    "tagline": "WordPress Theme for [oneunitysb.com](http://oneunitysb.com)",
+                    "description": [
+                        "Simple, resilient HTML5/CSS3 structure using SASS & HTML5BoilerPlate",
+                        "Adaptive layout w/styles for mobile viewing",
+                        "Metadata-driven widgets using Advanced Custom Fields"
+                    ] 
+                },
+                {
+                    "project_name": "Deconstrained/PrimePy",
+                    "tagline": "Created for problem-solving on [Project Euler](http://projecteuler.net/) in Python.",
+                    "description": [
+                        "Methods for efficiently finding and caching the Nth prime number using a cumulative sieve",
+                        "Prime factorization class that supports rational numbers and all major arithmetic operations via functional overloading.",
+                        "Number theory utilities such as Euler-Phi, tests for abundance/weirdness, greatest common divisor, etc."
+                    ]
+                },
+                {
+                    "project_name": "Deconstrained/EncryptBackup",
+                    "tagline": "Easier management of external backups",
+                    "description": [
+                        "Utility script for backing up data across multiple encrypted block devices using LUKS/dm-crypt"
+                    ]
+                }
+            ]
+        }, /* github_projects */
+        "education": {
+            "show_gpa": true,
+            "schools": [
+                {
+                    "degree": "Bachelor of Science",
+                    "major": "Astrophysics",
+                    "institution": "University of California at Santa Cruz",
+                    "graduation_year": 2009,
+                    "gpa": "3.0"
+                }
+            ]
+        },
+        "acad_achievements": {
+            "items": [
+                "Thesis: Random Angle Generation: Modeling Diffuse Light Reflection in Planetary Rings"
+            ]
+        },
+        "experience": {
+            "items": [
+                {
+                    "title": "Engineer / Systems Administrator / Technical Support Representative",
+                    "organisation": "X2Engine Inc.",
+                    "location": "Santa Cruz, CA",
+                    "from": "January 2012",
+                    "to": "July 2014",
+                    "details": [
+                        "Created multiple systems for deploying the product as a service on-demand in LAMP environments.",
+                        "Developed an automated software update data generation and versioning program in Python, which reduced the time to deploy a new version of the software product by over 80%.",
+                        "Introduced numerous best practices to the project, including unit testing with PHPUnit and software documentation with JavaDoc-style comments.",
+                        "Trained four other developers on the team.",
+                        "Redesigned the software update process, improving its overall efficiency and stability, and giving it the ability to support multiple products.",
+                        "Designed and built a REST-ful JSON API compatible with Zapier.",
+                        "Created a license key and software registration web application.",
+                        "Authored extensive and detailed documentation using MediaWiki.",
+                        "Installed, configured and administered the company's Asterisk-based VoIP phone system and numerous other internal-use software components, scripts, networks, web applications, services and systems.",
+                        "Assisted and solved problems for customers and end users."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Python",
+                            "PHP",
+                            "Yii Framework",
+                            "LAMP",
+                            "jQuery",
+                            "Unit Testing",
+                            "Foundation",
+                            "MVC"
+                        ]
+                    }
+                },
+                {
+                    "title": "Research Associate",
+                    "organisation": "NASA Ames Research Center",
+                    "location": "Mountain View, CA",
+                    "from": "July 2009",
+                    "to": "December 2011",
+                    "details": [
+                        "Implemented algorithms for nonuniform multivariate random number generation in the context of Monte Carlo methods.",
+                        "Isolated and re-used code from the GADGET-2 N-body simulation for use in the planetary accretion problem.",
+                        "Created Python-based data parsing, reduction and visualization tools for output from multithreaded simulations.",
+                        "Introduced the practice of using version control to collaborator.",
+                        "Authored extensive documentation using DoxyGen"
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Scientific Computing",
+                            "Fortran 77/90",
+                            "C",
+                            "OpenMPI",
+                            "Python",
+                            "NumPy",
+                            "MatPlotLib"
+                        ]
+                    }
+                },
+                {
+                    "title": "Web Development Consultant",
+                    "organisation": "Life Lab Science Program",
+                    "location": "Santa Cruz, CA",
+                    "from": "January 2008",
+                    "to": "November 2010",
+                    "details": [
+                        "Migrated a static 30+ page HTML website into a dynamic website managed by WordPress.",
+                        "Wrote parsing tools with regular expressions to assist in automatic migration.",
+                        "Created a custom WordPress theme.",
+                        "Performed website management and administration tasks, including web security threat response."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "CSS",
+                            "PHP",
+                            "HTML"
+                        ]
+                    }
+                },
+                {
+                    "title": "Tutor",
+                    "organisation": "Aptos Learning Center",
+                    "location": "Aptos, CA",
+                    "from": "August 2008",
+                    "to": "September 2009",
+                    "details": [
+                        "Mathematics, logic, critical thinking and English syntax tutoring of students grade 5-11 with learning differences",
+                        "Created and implemented supplemental teaching aides for instruction in arithmetic",
+                        "Applied the On Cloud Nine(tm) Teaching System"
+                    ]
+                },
+                {
+                    "title": "Tutor",
+                    "organisation": "Merit Educational Consultants LLC",
+                    "location": "Soquel, CA",
+                    "from": "August 2008",
+                    "to": "July 2009",
+                    "details": [
+                        "Tutoring/instruction in web design",
+                        "Development and editing of physics laboratory curricula",
+                        "Mathematics (SAT/College prep) tutoring"
+                    ]
+                },
+                {
+                    "title": "Reader/Grader",
+                    "organisation": "UCSC Division of Physical and Biological Sciences",
+                    "location": "Santa Cruz, CA",
+                    "from": "September 2005",
+                    "to": "March 2009",
+                    "details": [
+                        "Proofreading and evaluation of coursework in physics at the undergraduate level",
+                        "Topics included relativity, thermodynamics, quantum mechanics and electrodynamics"
+                    ]
+                }
+
+            ]
+        },
+        /* 
+        "other_projects": {
+            "items": [
+                {
+                    "headline": "Designed product _Omerta_, a multi-user chat room application in j2me using Sun Wireless Toolkit platform.",
+                    "points": [
+                        "Was awarded 1<sup>st</sup> position for the product in [Envision](http://www.ecell-iitkgp.org/envision.php), Product Innovation Contest, IIT KGP.",
+                        "Was awarded 1<sup>st</sup> position for the product in Javawise, J2ME s/w Development Contest at IIT Kharagpur, 2008 and 2009 continuously."
+                    ]
+                }                
+            ]
+        },
+        "grad_courses": [
+            {
+                "name": "Distributed Computing",
+                "url": "http://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/13F/"
+            },
+            {
+                "name": "Feature Oriented Programming",
+                "url": "http://www.cs.utexas.edu/users/dsb/cs392f"
+            },
+            {
+                "name": "Multicore Programming",
+                "url": "http://www.cs.utexas.edu/~pingali/CS395T/2013fa"
+            }
+         ], */
+        "undergrad_courses": [
+            {
+                "name": "Computational Physics",
+                "url": "http://young.physics.ucsc.edu/115/"
+            }
+        ] /*
+        "research_experience": {
+            "items": [
+                {
+                    "title":"Undergraduate project",
+                    "organisation": "Sanyog Lab, IIT Kharagpur",
+                    "from": "Jul. 2008",
+                    "to": "May 2009",
+                    "points": [
+                        "Designing and Formal modelling of embedded systems for project Sanyog.",
+                        "Skills Developed: Low level system design, theorem verification using Prolog and Coq"
+                    ]
+                },
+                {
+                    "title":"Summer Intern",
+                    "organisation": "Network Systems Lab, IIT Kharagpur",
+                    "from": "May 2008",
+                    "to": "Jun. 2008",
+                    "points": [
+                        "Design and simulation of currently published Pull-based Freshness Schemes in C++."
+                    ]
+                },
+                {
+                    "title":"Summer Intern",
+                    "organisation": "Telemedicine Lab, IIT Kharagpur",
+                    "from": "May 2007",
+                    "to": "Jun. 2007",
+                    "points": [
+                        "Web based medical image browsing and annotation tools for PDA devices in .NET platform."
+                    ]
+                }
+            ]
+        }, 
+        "extra_curricular": {
+            "items": [
+                "Was awarded 2<sup>nd</sup> position in Bionetics, Coding Event, Genesis 09 at IIT Kharagpur.",
+                "Microsoft Student Partner of IIT Kharagpur from the period July 08 – June 09."
+            ]
+        },
+            "papers": {
+               "items": [
+                {
+                "authors":"Michl Dugls, Mrclo Dsconi",
+                "title":"Some exotic dummy title like potentials arising from string compactifications",
+                "misc":"arXiv: 1206.1885, June 2012"
+                } 
+               ]
+        },
+        "patents": {
+           "items": [
+                {
+                "patent_id":"US Patent X,XXX,634",
+                "url":"",
+                "issuance_date":"September 15, 1992",
+                "title":"Another exotic title like bed cover with an inflatable human form."
+                }
+               ]
+        },
+        "memberships": {
+           "committees": [
+                "Member of the ACM awesomest humans secret group, 2008-present"
+               ]
+        } */
+    }
+}
