@@ -177,7 +177,7 @@
                     "to": "December 2011",
                     "details": [
                         "Worked with Jeff Cuzzi and Paul Estrada on astrophysical research pertaining to the formation of planetary systems and rings.",
-                        "Isolated and re-used code from the GADGET-2 N-body simulation for use in the planetary accretion problem.",
+                        "Isolated and re-purposed components of the [Gadget-2](http://www.mpa-garching.mpg.de/gadget/) N-Body simulation for use in the planetary accretion problem.",
                         "Created Python-based data parsing, reduction and visualization tools for output from multithreaded simulations.",
                         "Designed and implemented strategies for retrofitting single-CPU astrophysical simulations for running in parallel using OpenMPI.",
                         "Created load optimization algorithms for parallel scientific computing.", 
