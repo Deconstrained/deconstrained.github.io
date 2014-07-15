@@ -62,6 +62,7 @@
                         "Git",
                         "Linux",
                         "iptables",
+                        "AWS",
                         "Vim",
                         "Asterisk"
                     ]
@@ -159,6 +160,7 @@
                             "PHP",
                             "Yii Framework",
                             "LAMP",
+                            "AWS",
                             "jQuery",
                             "Unit Testing",
                             "Foundation",
