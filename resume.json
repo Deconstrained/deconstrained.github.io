@@ -61,6 +61,7 @@
                         "LAMP",
                         "Git",
                         "Linux",
+                        "iptables",
                         "Vim",
                         "Asterisk"
                     ]
@@ -161,6 +162,7 @@
                             "jQuery",
                             "Unit Testing",
                             "Foundation",
+                            "iptables",
                             "MVC"
                         ]
                     }
