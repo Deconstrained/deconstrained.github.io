@@ -79,7 +79,7 @@
                 },
                 {
                     "project_name": "Deconstrained/Gummii",
-                    "tagline": "A pet project in Yii Framework with ambitious goals",
+                    "tagline": "An experimental web application",
                     "description": [
                         "100% AJAX-driven pages",
                         "Themeable using jQuery UI",
@@ -172,10 +172,12 @@
                     "from": "July 2009",
                     "to": "December 2011",
                     "details": [
-                        "Implemented algorithms for nonuniform multivariate random number generation in the context of Monte Carlo methods.",
+                        "Worked with Jeff Cuzzi and Paul Estrada on astrophysical research pertaining to the formation of planetary systems and rings.",
                         "Isolated and re-used code from the GADGET-2 N-body simulation for use in the planetary accretion problem.",
                         "Created Python-based data parsing, reduction and visualization tools for output from multithreaded simulations.",
-                        "Introduced the practice of using version control to collaborator.",
+                        "Designed and implemented strategies for retrofitting single-CPU astrophysical simulations for running in parallel using OpenMPI.",
+                        "Created load optimization algorithms for parallel scientific computing.", 
+                        "Introduced the practice of using version control and instructed collaborators in its use.",
                         "Authored extensive documentation using DoxyGen"
                     ],
                     "technology_used": {
@@ -279,7 +281,7 @@
                 "name": "Computational Physics",
                 "url": "http://young.physics.ucsc.edu/115/"
             }
-        ] /*
+        ] /* 
         "research_experience": {
             "items": [
                 {
