@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+
+<personal>
+    <identity>
+
+        <firstname>Demitri</firstname>
+        <middlename>Arthur</middlename>
+        <middleinitial>A.</middleinitial>
+        <lastname>Morgan</lastname>
+
+        <contact>
+            <phone type="cell">(831) 607-9833</phone>
+            <email type="personal">demitri.morgan@gmail.com</email>
+            <website href="http://deconstrained.github.io">deconstrained.github.io</website>
+        </contact>
+
+        <socialmedia>
+            <link site="LinkedIn">demitrimorgan</link>
+            <link site="GitHub">Deconstrained</link>
+            <link site="Google+">+DemitriMorgan</link>
+            <link site="Twitter">demetriusarthur</link>
+        </socialmedia>
+
+    </identity>
+
+    <strengths><!-- Type any and all strong points here, specify the specialization as a comma-delinated type attribute-->
+        <point type="any">Self-motivated individual with experience in rapid self-teaching.</point>
+        <point type="support,education">Ability to effectively communicate concepts of technical nature.</point>
+        <point type="software">Experienced in both contributing to existing software/research projects and building them from scratch.</point>
+        <!-- <point type="foodservice,bluecollar">Experienced and able to safely lift heavy objects and work with hazardous chemcials</point>
+        <point type="foodservice">Over a decade of combined prep cooking and dishwashing experience in both both a professional and personal setting.</point> -->
+    </strengths>
+
+</personal>
+
+<projects type="GitHub">
+
+    <project>
+        <name>WorkDivSimAnneal</name>
+        <brief>Simulated annealing proof-of-concept</brief>
+        <point>Two implementations of simulated annealing in Python</point>
+        <point>Finds out the best partitioning of a heterogeneous pool of work units.</point>
+        <point>Real-time visualization of the evolution of the system.</point>
+    </project>
+    
+    <project>
+        <name>Gummii</name>
+        <brief>An experimental single-page application (SPA) boilerplate</brief>
+        <point>Themeable using jQuery UI</point>
+        <point>User authentication and authorization</point>
+        <point>Made portable/redistributable with installer</point>
+        <point>Unit testing environment</point>
+    </project>
+
+    <project>
+        <name>oneunitysb</name>
+        <brief>WordPress Theme for oneunitysb.com</brief>
+        <point>HTML5/CSS3 structure using SASS & HTML5BoilerPlate</point>
+        <point>Adaptive layout with mobile-friendly style</point>
+        <point>Metadata-driven widgets using Advanced Custom Fields</point>
+    </project>
+
+    <project>
+        <name>PrimePy</name>
+        <brief>Number-theory module for Python</brief>
+        <point>Finds the Nth prime number using a cumulative sieve</point>
+        <point>Provides a class for arithmetic operations on prime factorizations via overloading</point>
+        <point>Number theory utilities such as Euler-Phi, tests for abundance/weirdness and greatest common divisor</point>
+    </project>
+
+    <project>
+        <name>EncryptBackup</name>
+        <brief>Easier management of external backups</brief>
+        <point>Backs up data piecewise across multiple encrypted block devices using LUKS/dm-crypt</point>
+        <point>Automatic block device recognition for different stages of backup</point>
+    </project>
+
+</projects>
+
+<expertise>
+    <area type="academic">Computational Physics</area>
+    <area type="software">Web Development</area>
+    <area type="software,academic">Version Control</area>
+    <area type="academic">MVC-based Design</area>
+    <area type="software">Unit Testing</area>
+    <area type="IT">UNIX administration</area>
+    <area type="IT">Network Configuration</area>
+    <area type="IT">IT Troubleshooting</area>
+    <area type="academic">Tutoring</area>
+</expertise>
+
+
+<skills type="Technical">
+
+    <skillset name="Lanugage and Framework">
+        <skill>Python</skill>
+        <skill>PHP</skill>
+        <skill>MySQL</skill>
+        <skill>Yii Framework</skill>
+        <skill>JavaScript</skill>
+        <skill>jQuery</skill>
+        <skill>HTML5</skill>
+        <skill>CSS3</skill>
+        <skill>SASS</skill>
+        <skill>Foundation</skill>
+        <skill>WordPress</skill>
+        <skill>C</skill>
+        <skill>GNU Make</skill>
+    </skillset>
+
+    <skillset name="Scientific Computing and Research">
+        <skill>Fortran 77/90</skill>
+        <skill>OpenMPI</skill>
+        <skill>IDL</skill>
+        <skill>MatLab</skill>
+        <skill>Mathematica</skill>
+        <skill>NumPy</skill>
+        <skill>MatPlotLib</skill>
+        <skill>LaTeX</skill>
+        <skill>Asymptote</skill>
+    </skillset>
+
+    <skillset name="Software">
+        <skill>Linux</skill>
+        <skill>Webhosting</skill>
+        <skill>Git</skill>
+        <skill>AWS</skill>
+        <skill>Vim</skill>
+        <skill>Asterisk</skill>
+    </skillset>
+
+</skills>
+
+<education>
+    <degree>
+    </degree>
+</education>
+
+<achievements type="Academic">
+    <achievement>
+        <title>Undergraduate Thesis</title>
+    </achievement>
+
+</achievements>
+
+</resume>
+
+
+
