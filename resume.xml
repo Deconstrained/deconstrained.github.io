@@ -43,7 +43,7 @@
         <point>Finds out the best partitioning of a heterogeneous pool of work units.</point>
         <point>Real-time visualization of the evolution of the system.</point>
     </project>
-    
+
     <project>
         <name>Gummii</name>
         <brief>An experimental single-page application (SPA) boilerplate</brief>
@@ -81,10 +81,8 @@
 <achievements type="Academic">
 
     <achievement>
-        <title>Undergraduate Thesis</title>
+        <title>UCSC Physics Undergraduate Thesis</title>
         <brief>Random Angle Generation: Modeling Diffuse Light Reflection in Planetary Rings</brief>
-        <point>Created full proof-of-concept code</point>
-        <point>Numerically demonstrated its correctness by analysis of output</point>
     </achievement>
 
     <achievement>
@@ -156,7 +154,7 @@
 
 <certifications>
     
-    <certification agency="CompTIA" title="Linux+" date="March 2015" validuntil="March 2018" />
+    <certification agency="CompTIA" title="Network+" date="March 2015" validuntil="March 2018" />
     <certification agency="W3Schools" title="HTML" date="November 2015" />
     <certification agency="W3Schools" title="CSS" date="November 2015" />
     <certification agency="W3Schools" title="PHP" date="November 2015" />
@@ -176,18 +174,28 @@
 
 <experience>
 
+    <position at="Hurricane Electric LLC" location="Fremont, CA">
+        <dates start="October 2014" end="present" />
+        <title>Support Engineer</title>
+        <duty>Hands-on data center technical assistance</duty>
+        <duty>Troubleshooting network, email and web hosting</duty>
+        <duty>Customer authentication and colocation security</duty>
+    </position>
+
     <position at="X2Engine Inc." location="Santa Cruz, CA">
         <dates start="January 2012" end="July 2014" />
-        <title>Staff Engineer</title>
+        <title>Software Engineer</title>
         <title>Systems Administrator</title>
-
+        <duty>Configuring and maintaining company IT systems</duty>
+        <duty>Development of core software components and services</duty>
+        <duty>Documentation authoring</duty>
         <accomplished>Created multiple automated systems for deploying the product as a service on-demand in LAMP environments.</accomplished>
         <accomplished>Introduced numerous best practices to the project, including unit testing with PHPUnit and software documentation with JavaDoc-style comments.</accomplished>
         <accomplished>Redesigned the software update process, improving its overall efficiency and stability, reducing the time to release a new version by as much as 80%, and giving it the ability to support multiple products.</accomplished>
         <accomplished>Trained four other staff engineers.</accomplished>
         <accomplished>Designed and built a REST-ful JSON API compatible with Zapier.</accomplished>
         <accomplished>Developed server monitoring and status alert programs</accomplished>
-        <accomplished>Created the X2Planet license key and software registration web application.</accomplished>
+        <accomplished>Created the X2Planet license key and software registration service.</accomplished>
         <accomplished>Authored extensive and detailed documentation using MediaWiki - see wiki.x2engine.com</accomplished>
         <accomplished>Installed, configured and administered the company's Asterisk-based VoIP phone system and numerous other internal-use software components, scripts, networks, web applications, services and systems.</accomplished>
         <accomplished>Assisted and solved problems for customers and end users.</accomplished>
