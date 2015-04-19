@@ -28,7 +28,7 @@
         <point type="any">Self-motivated individual with experience in rapid self-teaching.</point>
         <point type="support,education">Ability to effectively communicate concepts of technical nature.</point>
         <point type="software">Experienced in both contributing to existing software/research projects and building them from scratch.</point>
-        <!-- <point type="foodservice,bluecollar">Experienced and able to safely lift heavy objects and work with hazardous chemcials</point>
+        <!-- <point type="foodservice,bluecollar">Experienced and able to safely lift heavy objects and work with hazardous materials</point>
         <point type="foodservice">Over a decade of combined prep cooking and dishwashing experience in both both a professional and personal setting.</point> -->
     </strengths>
 
@@ -78,6 +78,22 @@
 
 </projects>
 
+<achievements type="Academic">
+
+    <achievement>
+        <title>Undergraduate Thesis</title>
+        <brief>Random Angle Generation: Modeling Diffuse Light Reflection in Planetary Rings</brief>
+        <point>Created full proof-of-concept code</point>
+        <point>Numerically demonstrated its correctness by analysis of output</point>
+    </achievement>
+
+    <achievement>
+        <title>P. R. Estrada <em>et al.,</em> Icarus <strong>252</strong> (2015) 415–439</title>
+        <brief>Listed as co-author for contributions to the development of the simulation code</brief>
+    </achievement>
+
+</achievements>
+
 <expertise>
     <area type="academic">Computational Physics</area>
     <area type="software">Web Development</area>
@@ -100,6 +116,7 @@
         <skill>Yii Framework</skill>
         <skill>JavaScript</skill>
         <skill>jQuery</skill>
+        <skill>XML</skill>
         <skill>HTML5</skill>
         <skill>CSS3</skill>
         <skill>SASS</skill>
@@ -123,7 +140,7 @@
 
     <skillset name="Software">
         <skill>Linux</skill>
-        <skill>Webhosting</skill>
+        <skill>Apache</skill>
         <skill>Git</skill>
         <skill>AWS</skill>
         <skill>Vim</skill>
@@ -133,18 +150,95 @@
 </skills>
 
 <education>
-    <degree>
-    </degree>
+    <degree title="B.Sc." major="Astrophysics" institution="University of California, Santa Cruz" year="2009" gpa="3.0" />
+    <degree title="GED" institution="Aptos High School" year="2004" />
 </education>
 
-<achievements type="Academic">
-    <achievement>
-        <title>Undergraduate Thesis</title>
-    </achievement>
+<certifications>
+    
+    <certification agency="CompTIA" title="Linux+" date="March 2015" validuntil="March 2018" />
+    <certification agency="W3Schools" title="HTML" date="November 2015" />
+    <certification agency="W3Schools" title="CSS" date="November 2015" />
+    <certification agency="W3Schools" title="PHP" date="November 2015" />
+    <certification agency="W3Schools" title="JavaScript" date="November 2015" />
+    <certification agency="W3Schools" title="jQuery" date="November 2015" />
+    <certification agency="W3Schools" title="XML" date="November 2015" />
 
-</achievements>
+    <certlogo>
+        <a href="http://www.refsnesdata.no/certification/w3certified.asp?email=demitri.morgan@gmail.com"><img src="img/w3cert.png" style="border:0" /></a>
+    </certlogo>
+
+    <certlogo>
+        <img src="img/NetworkPlus_Certified_CE_Logo.png" />
+    </certlogo>
+
+</certifications>
+
+<experience>
+
+    <position at="X2Engine Inc." location="Santa Cruz, CA">
+        <dates start="January 2012" end="July 2014" />
+        <title>Staff Engineer</title>
+        <title>Systems Administrator</title>
+
+        <accomplished>Created multiple automated systems for deploying the product as a service on-demand in LAMP environments.</accomplished>
+        <accomplished>Introduced numerous best practices to the project, including unit testing with PHPUnit and software documentation with JavaDoc-style comments.</accomplished>
+        <accomplished>Redesigned the software update process, improving its overall efficiency and stability, reducing the time to release a new version by as much as 80%, and giving it the ability to support multiple products.</accomplished>
+        <accomplished>Trained four other staff engineers.</accomplished>
+        <accomplished>Designed and built a REST-ful JSON API compatible with Zapier.</accomplished>
+        <accomplished>Developed server monitoring and status alert programs</accomplished>
+        <accomplished>Created the X2Planet license key and software registration web application.</accomplished>
+        <accomplished>Authored extensive and detailed documentation using MediaWiki - see wiki.x2engine.com</accomplished>
+        <accomplished>Installed, configured and administered the company's Asterisk-based VoIP phone system and numerous other internal-use software components, scripts, networks, web applications, services and systems.</accomplished>
+        <accomplished>Assisted and solved problems for customers and end users.</accomplished>
+    </position>
+
+    <position with="University Space Research Association" location="Mountain View, CA">
+        <dates start="July 2009" end="December 2011" />
+        <title>Research Associate at NASA Ames Research Center</title>
+        <accomplished>Worked with professors on astrophysical research pertaining to the formation of planetary systems and rings.</accomplished>
+        <accomplished>Isolated and re-purposed components of the Gadget-2 N-Body simulation for use in the planetary accretion problem.</accomplished>
+        <accomplished>Created Python-based data parsing, reduction and visualization tools for output from multithreaded simulations.</accomplished>
+        <accomplished>Designed and implemented strategies for retrofitting single-CPU astrophysical simulations for running in parallel using OpenMPI.</accomplished>
+        <accomplished>Created load optimization algorithms for parallel scientific computing.</accomplished>
+        <accomplished>Introduced the practice of using version control and GNU Make, and instructed collaborators in their use.</accomplished>
+        <accomplished>Authored extensive documentation using DoxyGen</accomplished>
+    </position>
+
+    <position for="Life Lab Science Program" location="Santa Cruz, CA">
+        <dates start="January 2008" end="November 2010" />
+        <title>Web Development Consultant</title>
+        <accomplished>Migrated a static 30+ page HTML website into a dynamic website managed by WordPress.</accomplished>
+        <accomplished>Wrote parsing tools with regular expressions to assist in automatic migration.</accomplished>
+        <accomplished>Created a custom WordPress theme.</accomplished>
+        <accomplished>Performed website management and administration tasks, including web security threat response.</accomplished>
+    </position>
+
+    <position at="Aptos Learning Center" location="Aptos, CA">
+        <dates start="August 2008" end="September 2009" />
+        <title>Tutor</title>
+        <accomplished>Mathematics, logic, analytical thinking and English syntax tutoring of students grade 5-11 with learning differences</accomplished>
+        <accomplished>Created and implemented supplemental teaching aides for instruction in arithmetic</accomplished>
+        <accomplished>Utilized the On Cloud Nine(tm) Teaching System</accomplished>
+    </position>
+
+    <position with="Merit Educational Consultants LLC" location="Soquel, CA">
+        <dates start="August 2008" end="July 2009" />
+        <title>Tutor</title>
+        <accomplished>Tutoring/instruction in web design</accomplished>
+        <accomplished>Development and editing of physics laboratory curricula</accomplished>
+        <accomplished>Mathematics (SAT/College prep) tutoring</accomplished>
+    </position>
+
+    <position at="UCSC Division of Physical and Biological Sciences" location="Santa Cruz, CA">
+        <title>Reader</title>
+        <title>Grader</title>
+        <accomplished>Proofreading and evaluation of coursework in physics at the undergraduate level</accomplished>
+        <accomplished>Topics included relativity, thermodynamics, quantum mechanics and electrodynamics</accomplished>
+    </position>
+
+</experience>
 
 </resume>
-
 
 
