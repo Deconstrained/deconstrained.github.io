@@ -4,10 +4,7 @@
 <personal>
     <identity>
 
-        <firstname>Demitri</firstname>
-        <middlename>Arthur</middlename>
-        <middleinitial>A.</middleinitial>
-        <lastname>Morgan</lastname>
+        <fullname>Demitri A. Morgan</fullname>
 
         <contact>
             <phone type="cell">(831) 607-9833</phone>
@@ -25,89 +22,31 @@
     </identity>
 
     <strengths><!-- Type any and all strong points here, specify the specialization as a comma-delinated type attribute-->
-        <point type="any">Self-motivated individual with experience in rapid self-teaching.</point>
-        <point type="support,education">Ability to effectively communicate concepts of technical nature.</point>
-        <point type="software">Experienced in both contributing to existing software/research projects and building them from scratch.</point>
-        <!-- <point type="foodservice,bluecollar">Experienced and able to safely lift heavy objects and work with hazardous materials</point>
-        <point type="foodservice">Over a decade of combined prep cooking and dishwashing experience in both both a professional and personal setting.</point> -->
+        <point>Self-motivated individual with experience in rapid self-teaching.</point>
+        <point cat="IT,education">Ability to effectively communicate concepts of technical nature.</point>
+        <point cat="software">Experienced in both contributing to existing software/research projects and building them from scratch.</point>
+        <!-- <point cat="foodservice,bluecollar">Experienced and able to safely lift heavy objects and work with hazardous materials</point>
+        <point cat="foodservice">Over a decade of combined prep cooking and dishwashing experience in both both a professional and personal setting.</point> -->
     </strengths>
 
 </personal>
 
-<projects type="GitHub">
-
-    <project>
-        <name>WorkDivSimAnneal</name>
-        <brief>Simulated annealing proof-of-concept</brief>
-        <point>Two implementations of simulated annealing in Python</point>
-        <point>Finds out the best partitioning of a heterogeneous pool of work units.</point>
-        <point>Real-time visualization of the evolution of the system.</point>
-    </project>
-
-    <project>
-        <name>Gummii</name>
-        <brief>An experimental single-page application (SPA) boilerplate</brief>
-        <point>Themeable using jQuery UI</point>
-        <point>User authentication and authorization</point>
-        <point>Made portable/redistributable with installer</point>
-        <point>Unit testing environment</point>
-    </project>
-
-    <project>
-        <name>oneunitysb</name>
-        <brief>WordPress Theme for oneunitysb.com</brief>
-        <point>HTML5/CSS3 structure using SASS & HTML5BoilerPlate</point>
-        <point>Adaptive layout with mobile-friendly style</point>
-        <point>Metadata-driven widgets using Advanced Custom Fields</point>
-    </project>
-
-    <project>
-        <name>PrimePy</name>
-        <brief>Number-theory module for Python</brief>
-        <point>Finds the Nth prime number using a cumulative sieve</point>
-        <point>Provides a class for arithmetic operations on prime factorizations via overloading</point>
-        <point>Number theory utilities such as Euler-Phi, tests for abundance/weirdness and greatest common divisor</point>
-    </project>
-
-    <project>
-        <name>EncryptBackup</name>
-        <brief>Easier management of external backups</brief>
-        <point>Backs up data piecewise across multiple encrypted block devices using LUKS/dm-crypt</point>
-        <point>Automatic block device recognition for different stages of backup</point>
-    </project>
-
-</projects>
-
-<achievements type="Academic">
-
-    <achievement>
-        <title>UCSC Physics Undergraduate Thesis</title>
-        <brief>Random Angle Generation: Modeling Diffuse Light Reflection in Planetary Rings</brief>
-    </achievement>
-
-    <achievement>
-        <title>P. R. Estrada <em>et al.,</em> Icarus <strong>252</strong> (2015) 415–439</title>
-        <brief>Listed as co-author for contributions to the development of the simulation code</brief>
-    </achievement>
-
-</achievements>
-
 <expertise>
-    <area type="academic">Computational Physics</area>
-    <area type="software">Web Development</area>
-    <area type="software,academic">Version Control</area>
-    <area type="academic">MVC-based Design</area>
-    <area type="software">Unit Testing</area>
-    <area type="IT">UNIX administration</area>
-    <area type="IT">Network Configuration</area>
-    <area type="IT">IT Troubleshooting</area>
-    <area type="academic">Tutoring</area>
+    <area cat="academic">Computational Physics</area>
+    <area cat="software">Web Development</area>
+    <area cat="software,academic">Version Control</area>
+    <area cat="academic">MVC-based Design</area>
+    <area cat="software">Test-driven Development</area>
+    <area cat="IT">UNIX administration</area>
+    <area cat="IT">Network Configuration</area>
+    <area cat="IT">IT Troubleshooting</area>
+    <area cat="IT">Datacenter</area>
+    <area cat="academic">Tutoring</area>
 </expertise>
-
 
 <skills type="Technical">
 
-    <skillset name="Lanugage and Framework">
+    <skillset name="Lanugage and Framework" cat="software">
         <skill>Python</skill>
         <skill>PHP</skill>
         <skill>MySQL</skill>
@@ -124,7 +63,7 @@
         <skill>GNU Make</skill>
     </skillset>
 
-    <skillset name="Scientific Computing and Research">
+    <skillset type="Scientific Computing and Research" cat="academic">
         <skill>Fortran 77/90</skill>
         <skill>OpenMPI</skill>
         <skill>IDL</skill>
@@ -136,7 +75,7 @@
         <skill>Asymptote</skill>
     </skillset>
 
-    <skillset name="Software">
+    <skillset type="Software" cat="IT,software,academic">
         <skill>Linux</skill>
         <skill>Apache</skill>
         <skill>Git</skill>
@@ -146,11 +85,6 @@
     </skillset>
 
 </skills>
-
-<education>
-    <degree title="B.Sc." major="Astrophysics" institution="University of California, Santa Cruz" year="2009" gpa="3.0" />
-    <degree title="GED" institution="Aptos High School" year="2004" />
-</education>
 
 <certifications>
     
@@ -175,11 +109,13 @@
 <experience>
 
     <position at="Hurricane Electric LLC" location="Fremont, CA">
-        <dates start="October 2014" end="present" />
+        <dates start="October 2014" />
         <title>Support Engineer</title>
-        <duty>Hands-on data center technical assistance</duty>
-        <duty>Troubleshooting network, email and web hosting</duty>
         <duty>Customer authentication and colocation security</duty>
+        <duty>Hardware installation</duty>
+        <duty>Cable management</duty>
+        <duty>Hands-on data center support</duty>
+        <duty>Network, email and web hosting troubleshooting</duty>
     </position>
 
     <position at="X2Engine Inc." location="Santa Cruz, CA">
@@ -189,63 +125,126 @@
         <duty>Configuring and maintaining company IT systems</duty>
         <duty>Development of core software components and services</duty>
         <duty>Documentation authoring</duty>
-        <accomplished>Created multiple automated systems for deploying the product as a service on-demand in LAMP environments.</accomplished>
-        <accomplished>Introduced numerous best practices to the project, including unit testing with PHPUnit and software documentation with JavaDoc-style comments.</accomplished>
-        <accomplished>Redesigned the software update process, improving its overall efficiency and stability, reducing the time to release a new version by as much as 80%, and giving it the ability to support multiple products.</accomplished>
-        <accomplished>Trained four other staff engineers.</accomplished>
-        <accomplished>Designed and built a REST-ful JSON API compatible with Zapier.</accomplished>
-        <accomplished>Developed server monitoring and status alert programs</accomplished>
-        <accomplished>Created the X2Planet license key and software registration service.</accomplished>
-        <accomplished>Authored extensive and detailed documentation using MediaWiki - see wiki.x2engine.com</accomplished>
-        <accomplished>Installed, configured and administered the company's Asterisk-based VoIP phone system and numerous other internal-use software components, scripts, networks, web applications, services and systems.</accomplished>
-        <accomplished>Assisted and solved problems for customers and end users.</accomplished>
+        <accomplishment>Created multiple automated systems for deploying the product as a service on-demand in LAMP environments.</accomplishment>
+        <accomplishment>Introduced numerous best practices to the project, including unit testing with PHPUnit and software documentation with JavaDoc-style comments.</accomplishment>
+        <accomplishment>Redesigned the software update process, improving its overall efficiency and stability, reducing the time to release a new version by as much as 80%, and giving it the ability to support multiple products.</accomplishment>
+        <accomplishment>Trained four other staff engineers.</accomplishment>
+        <accomplishment>Designed and built a REST-ful JSON API compatible with Zapier.</accomplishment>
+        <accomplishment>Developed server monitoring and status alert programs</accomplishment>
+        <accomplishment>Created the X2Planet license key and software registration service.</accomplishment>
+        <accomplishment>Authored extensive and detailed documentation using MediaWiki - see wiki.x2engine.com</accomplishment>
+        <accomplishment>Installed, configured and administered the company's Asterisk-based VoIP phone system and numerous other internal-use software components, scripts, networks, web applications, services and systems.</accomplishment>
+        <accomplishment>Assisted and solved problems for customers and end users.</accomplishment>
     </position>
 
     <position with="University Space Research Association" location="Mountain View, CA">
         <dates start="July 2009" end="December 2011" />
         <title>Research Associate at NASA Ames Research Center</title>
-        <accomplished>Worked with professors on astrophysical research pertaining to the formation of planetary systems and rings.</accomplished>
-        <accomplished>Isolated and re-purposed components of the Gadget-2 N-Body simulation for use in the planetary accretion problem.</accomplished>
-        <accomplished>Created Python-based data parsing, reduction and visualization tools for output from multithreaded simulations.</accomplished>
-        <accomplished>Designed and implemented strategies for retrofitting single-CPU astrophysical simulations for running in parallel using OpenMPI.</accomplished>
-        <accomplished>Created load optimization algorithms for parallel scientific computing.</accomplished>
-        <accomplished>Introduced the practice of using version control and GNU Make, and instructed collaborators in their use.</accomplished>
-        <accomplished>Authored extensive documentation using DoxyGen</accomplished>
+        <duty>Worked with professors on astrophysical research pertaining to the formation of planetary systems and rings.</duty>
+        <accomplishment>Isolated and re-purposed components of the Gadget-2 N-Body simulation for use in the planetary accretion problem.</accomplishment>
+        <accomplishment>Created Python-based data parsing, reduction and visualization tools for output from multithreaded simulations.</accomplishment>
+        <accomplishment>Designed and implemented strategies for retrofitting single-CPU astrophysical simulations for running in parallel using OpenMPI.</accomplishment>
+        <accomplishment>Created load optimization algorithms for parallel scientific computing.</accomplishment>
+        <accomplishment>Introduced the practice of using version control and GNU Make, and instructed collaborators in their use.</accomplishment>
+        <accomplishment>Authored extensive documentation using DoxyGen</accomplishment>
     </position>
 
     <position for="Life Lab Science Program" location="Santa Cruz, CA">
         <dates start="January 2008" end="November 2010" />
         <title>Web Development Consultant</title>
-        <accomplished>Migrated a static 30+ page HTML website into a dynamic website managed by WordPress.</accomplished>
-        <accomplished>Wrote parsing tools with regular expressions to assist in automatic migration.</accomplished>
-        <accomplished>Created a custom WordPress theme.</accomplished>
-        <accomplished>Performed website management and administration tasks, including web security threat response.</accomplished>
+        <duty>WordPress theme development.</duty>
+        <duty>Performed website management and administration tasks, including web security threat response.</duty>
+
+        <accomplishment>Migrated a static 30+ page HTML website into a dynamic website managed by WordPress.</accomplishment>
+        <accomplishment>Wrote parsing tools with regular expressions to assist in automatic migration.</accomplishment>
     </position>
 
     <position at="Aptos Learning Center" location="Aptos, CA">
         <dates start="August 2008" end="September 2009" />
         <title>Tutor</title>
-        <accomplished>Mathematics, logic, analytical thinking and English syntax tutoring of students grade 5-11 with learning differences</accomplished>
-        <accomplished>Created and implemented supplemental teaching aides for instruction in arithmetic</accomplished>
-        <accomplished>Utilized the On Cloud Nine(tm) Teaching System</accomplished>
+        <duty>Mathematics, logic, analytical thinking and English syntax tutoring of students grade 5-11 with learning differences</duty>
+        <duty>Created and implemented supplemental teaching aides for instruction in arithmetic</duty>
+        <duty>Utilized the On Cloud Nine(tm) Teaching System</duty>
     </position>
 
     <position with="Merit Educational Consultants LLC" location="Soquel, CA">
         <dates start="August 2008" end="July 2009" />
         <title>Tutor</title>
-        <accomplished>Tutoring/instruction in web design</accomplished>
-        <accomplished>Development and editing of physics laboratory curricula</accomplished>
-        <accomplished>Mathematics (SAT/College prep) tutoring</accomplished>
+        <duty>Tutoring/instruction in web design</duty>
+        <duty>Development and editing of physics laboratory curricula</duty>
+        <duty>Mathematics (SAT/College prep) tutoring</duty>
     </position>
 
     <position at="UCSC Division of Physical and Biological Sciences" location="Santa Cruz, CA">
         <title>Reader</title>
         <title>Grader</title>
-        <accomplished>Proofreading and evaluation of coursework in physics at the undergraduate level</accomplished>
-        <accomplished>Topics included relativity, thermodynamics, quantum mechanics and electrodynamics</accomplished>
+        <duty>Proofreading and evaluation of coursework in physics at the undergraduate level</duty>
+        <duty>Topics included relativity, thermodynamics, quantum mechanics and electrodynamics</duty>
     </position>
 
 </experience>
+
+<education>
+    <degree title="B.Sc." major="Astrophysics" institution="University of California, Santa Cruz" year="2009" gpa="3.0" />
+    <!-- <degree title="GED" institution="Aptos High School" year="2004" cat="bluecollar" /> -->
+</education>
+
+<achievements type="Academic">
+
+    <achievement>
+        <title>Completed UCSC Physics Undergraduate Thesis</title>
+        <brief>Random Angle Generation: Modeling Diffuse Light Reflection in Planetary Rings</brief>
+    </achievement>
+
+    <achievement>
+        <title>Listed as co-author of P. R. Estrada <em>et al.,</em> Icarus <strong>252</strong> (2015) 415–439</title>
+        <brief>For contributions to the development of the simulation code</brief>
+    </achievement>
+</achievements>
+
+<projects type="GitHub">
+
+    <project>
+        <title>WorkDivSimAnneal</title>
+        <brief>Simulated annealing proof-of-concept</brief>
+        <point>Two implementations of simulated annealing in Python</point>
+        <point>Finds out the best partitioning of a heterogeneous pool of work units.</point>
+        <point>Real-time visualization of the evolution of the system.</point>
+    </project>
+
+    <project>
+        <title>Gummii</title>
+        <brief>An experimental single-page application (SPA) boilerplate</brief>
+        <point>Themeable using jQuery UI</point>
+        <point>User authentication and authorization</point>
+        <point>Made portable/redistributable with installer</point>
+        <point>Unit testing environment</point>
+    </project>
+
+    <project>
+        <title>oneunitysb</title>
+        <brief>WordPress Theme for oneunitysb.com</brief>
+        <point>HTML5/CSS3 structure using SASS &amp; HTML5BoilerPlate</point>
+        <point>Adaptive layout with mobile-friendly style</point>
+        <point>Metadata-driven widgets using Advanced Custom Fields</point>
+    </project>
+
+    <project>
+        <title>PrimePy</title>
+        <brief>Number-theory module for Python</brief>
+        <point>Finds the Nth prime number using a cumulative sieve</point>
+        <point>Provides a class for arithmetic operations on prime factorizations via overloading</point>
+        <point>Number theory utilities such as Euler-Phi, tests for abundance/weirdness and greatest common divisor</point>
+    </project>
+
+    <project>
+        <title>EncryptBackup</title>
+        <brief>Easier management of external backups</brief>
+        <point>Backs up data piecewise across multiple encrypted block devices using LUKS/dm-crypt</point>
+        <point>Automatic block device recognition for different stages of backup</point>
+    </project>
+
+</projects>
 
 </resume>
 

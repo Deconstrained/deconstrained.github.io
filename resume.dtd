@@ -1,0 +1,90 @@
+<!ELEMENT resume (personal,expertise,skills,certifications?,experience,education?,achievements*,projects*)>
+<!ELEMENT personal (identity,strengths)>
+<!ELEMENT expertise (area+)>
+<!ELEMENT skills (skillset+)>
+<!ELEMENT certifications (certification|certlogo)*>
+<!ELEMENT experience (position+)>
+<!ELEMENT education (degree+)>
+<!ELEMENT achievements (achievement+)>
+<!ELEMENT projects (project+)>
+
+
+<!-- personal::children  -->
+<!ELEMENT identity (fullname|contact|socialmedia)*>
+<!ELEMENT strengths (point+)>
+
+<!-- expertise::children -->
+<!ELEMENT area CDATA>
+
+<!-- skills::children -->
+<!ELEMENT skillset (skill+)>
+
+<!-- experience::children -->
+<!ELEMENT position (dates+,title+,duty*,accomplishment*)>
+
+<!-- achievements::children -->
+<!ELEMENT achievement (title,brief)>
+<!ATTLIST achievement %commonattr
+
+<!-- projects::children -->
+<!ELEMENT project (title,brief,point*)>
+
+<!-- personal::contact::children -->
+<!ELEMENT contact (phone|email|address|website)*)>
+<!ELEMENT socialmedia (link*)>
+
+<!-- Leaf node descriptors -->
+
+<!ELEMENT accomplishment CDATA>
+<!ELEMENT area CDATA>
+<!ELEMENT brief CDATA>
+<!ELEMENT certification EMPTY>
+<!ELEMENT certlogo CDATA>
+<!ELEMENT dates EMPTY>
+<!ELEMENT degree EMPTY>
+<!ELEMENT duty CDATA>
+<!ELEMENT email CDATA>
+<!ELEMENT fullname CDATA>
+<!ELEMENT link CDATA>
+<!ELEMENT phone CDATA>
+<!ELEMENT point CDATA>
+<!ELEMENT skill CDATA>
+<!ELEMENT title CDATA>
+<!ELEMENT website CDATA>
+
+
+<!-- Parameter entity shortcuts: -->
+<!ENTITY % title 'title CDATA #REQUIRED'>
+<!ENTITY % type 'type CDATA #IMPLIED'>
+<!ENTITY % cat 'cat CDATA #IMPLIED'>
+
+<!-- Attribute declarations -->
+
+<!-- <!ATTLIST accomplishment> -->
+<!-- <!ATTLIST achievement> -->
+<!-- <!ATTLIST brief> -->
+<!-- <!ATTLIST certifications> -->
+<!-- <!ATTLIST certlogo> -->
+<!-- <!ATTLIST duty> -->
+<!-- <!ATTLIST education> -->
+<!-- <!ATTLIST experience> -->
+<!-- <!ATTLIST expertise> -->
+<!-- <!ATTLIST fullname> -->
+<!-- <!ATTLIST personal> -->
+<!-- <!ATTLIST point> -->
+<!-- <!ATTLIST skill> -->
+<!-- <!ATTLIST title> -->
+
+<!ATTLIST achievements %type;>
+<!ATTLIST area %cat;>
+<!ATTLIST certification agency CDATA #REQUIRED %title; date CDATA #REQUIRED validuntil CDATA #IMPLIED>
+<!ATTLIST dates start CDATA #REQUIRED end CDATA "present">
+<!ATTLIST degree %title; major CDATA #REQUIRED institution CDATA #REQUIRED year CDATA #REQUIRED gpa CDATA #IMPLIED>
+<!ATTLIST email %type;>
+<!ATTLIST link site CDATA #REQUIRED>
+<!ATTLIST phone %type;>
+<!ATTLIST position location CDATA #IMPLIED at CDATA #IMPLIED with CDATA #IMPLIED for CDATA #IMPLIED>
+<!ATTLIST projects %type;>
+<!ATTLIST skills %type;>
+<!ATTLIST skillset %type; %cat;>
+<!ATTLIST website href CDATA #REQUIRED>
