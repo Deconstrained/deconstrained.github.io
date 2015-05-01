@@ -4,20 +4,53 @@ body {
     font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
     text-rendering: optimizelegibility;
 }
+
+h2 { border-bottom: 1px solid gray; }
+
+@mixin cloudlist {
+    li {
+        display: inline-block;
+        margin-right:0.5em;
+    }
+}
+
 @mixin plainlist {
     list-style-type: none;
 }
+
 
 ul.plain {
     @include plainlist;
 }
 
-ul.cloud {
-    @include plainlist;
+ul.bulletcloud {
+    @include cloudlist;
+    margin-right: 0; 
+    li:nth-child(n+2)::before { content: "  \02666  "; }
+}
 
-    li {
-        display: inline;
-        margin-right: 1.0em;
+ul.plaincloud {
+    @include plainlist;
+    @include cloudlist;
+}
+
+div#certlogos {
+    img {
+        max-height: 3.0em;
+        margin: 0 1.0em;
     }
 }
 
+table.basic {
+    td,th { padding: 0 1.0em; }
+
+}
+
+span.company {
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+ul.duties::before {
+    content: "Duties: ";
+}

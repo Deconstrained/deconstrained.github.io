@@ -56,7 +56,7 @@
 <!-- Parameter entity shortcuts: -->
 <!ENTITY % title 'title CDATA #REQUIRED'>
 <!ENTITY % type 'type CDATA #IMPLIED'>
-<!ENTITY % cat 'cat CDATA #IMPLIED'>
+<!ENTITY % cat 'cat CDATA #IMPLIED'><!-- To be used for categorizing content, i.e. for tailoring and displaying subsets of data --> 
 
 <!-- Attribute declarations -->
 
@@ -83,7 +83,7 @@
 <!ATTLIST email %type;>
 <!ATTLIST link site CDATA #REQUIRED>
 <!ATTLIST phone %type;>
-<!ATTLIST position location CDATA #IMPLIED at CDATA #IMPLIED with CDATA #IMPLIED for CDATA #IMPLIED>
+<!ATTLIST position location CDATA #IMPLIED pos CDATA #IMPLIED org CDATA #IMPLIED>
 <!ATTLIST projects %type;>
 <!ATTLIST skills %type;>
 <!ATTLIST skillset %type; %cat;>

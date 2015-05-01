@@ -27,9 +27,9 @@
     </identity>
 
     <strengths><!-- Type any and all strong points here, specify the specialization as a comma-delinated type attribute-->
-        <point>Self-motivated individual with experience in rapid self-teaching.</point>
-        <point cat="IT,education">Ability to effectively communicate concepts of technical nature.</point>
-        <point cat="software">Experienced in both contributing to existing software/research projects and building them from scratch.</point>
+        <point>Self-motivated individual with experience in rapid self-teaching</point>
+        <point cat="IT,education">Ability to effectively communicate concepts of technical nature</point>
+        <point cat="software">Experienced in both contributing to existing software/research projects and building them from scratch</point>
         <!-- <point cat="foodservice,bluecollar">Experienced and able to safely lift heavy objects and work with hazardous materials</point>
         <point cat="foodservice">Over a decade of combined prep cooking and dishwashing experience in both both a professional and personal setting.</point> -->
     </strengths>
@@ -51,7 +51,7 @@
 
 <skills type="Technical">
 
-    <skillset name="Lanugage and Framework" cat="software">
+    <skillset type="Lanugage and Framework" cat="software">
         <skill>Python</skill>
         <skill>PHP</skill>
         <skill>MySQL</skill>
@@ -94,12 +94,12 @@
 <certifications>
     
     <certification agency="CompTIA" title="Network+" date="March 2015" validuntil="March 2018" />
-    <certification agency="W3Schools" title="HTML" date="November 2015" />
-    <certification agency="W3Schools" title="CSS" date="November 2015" />
-    <certification agency="W3Schools" title="PHP" date="November 2015" />
-    <certification agency="W3Schools" title="JavaScript" date="November 2015" />
-    <certification agency="W3Schools" title="jQuery" date="November 2015" />
-    <certification agency="W3Schools" title="XML" date="November 2015" />
+    <certification agency="W3Schools" title="HTML" date="November 2014" />
+    <certification agency="W3Schools" title="CSS" date="November 2014" />
+    <certification agency="W3Schools" title="PHP" date="November 2014" />
+    <certification agency="W3Schools" title="JavaScript" date="November 2014" />
+    <certification agency="W3Schools" title="jQuery" date="November 2014" />
+    <certification agency="W3Schools" title="XML" date="November 2014" />
 
     <certlogo>
         <a href="http://www.refsnesdata.no/certification/w3certified.asp?email=demitri.morgan@gmail.com"><img src="img/w3cert.png" style="border:0" /></a>
@@ -113,8 +113,8 @@
 
 <experience>
 
-    <position at="Hurricane Electric LLC" location="Fremont, CA">
-        <dates start="October 2014" />
+    <position pos="at" org="Hurricane Electric LLC"  location="Fremont, CA">
+        <dates start="October 2014" end="present" />
         <title>Support Engineer</title>
         <duty>Customer authentication and colocation security</duty>
         <duty>Hardware installation</duty>
@@ -123,7 +123,7 @@
         <duty>Network, email and web hosting troubleshooting</duty>
     </position>
 
-    <position at="X2Engine Inc." location="Santa Cruz, CA">
+    <position pos="at" org="X2Engine Inc." location="Santa Cruz, CA">
         <dates start="January 2012" end="July 2014" />
         <title>Software Engineer</title>
         <title>Systems Administrator</title>
@@ -142,10 +142,11 @@
         <accomplishment>Assisted and solved problems for customers and end users.</accomplishment>
     </position>
 
-    <position with="University Space Research Association" location="Mountain View, CA">
+    <position pos="with" org="University Space Research Association" location="Mountain View, CA">
         <dates start="July 2009" end="December 2011" />
         <title>Research Associate at NASA Ames Research Center</title>
-        <duty>Worked with professors on astrophysical research pertaining to the formation of planetary systems and rings.</duty>
+        <duty>Working with professors on astrophysical research pertaining to the formation of planetary systems and rings.</duty>
+        <accomplishment>Listed as co-author of P. R. Estrada <em>et al.,</em> Icarus <strong>252</strong> (2015) 415–439</accomplishment>
         <accomplishment>Isolated and re-purposed components of the Gadget-2 N-Body simulation for use in the planetary accretion problem.</accomplishment>
         <accomplishment>Created Python-based data parsing, reduction and visualization tools for output from multithreaded simulations.</accomplishment>
         <accomplishment>Designed and implemented strategies for retrofitting single-CPU astrophysical simulations for running in parallel using OpenMPI.</accomplishment>
@@ -154,7 +155,7 @@
         <accomplishment>Authored extensive documentation using DoxyGen</accomplishment>
     </position>
 
-    <position for="Life Lab Science Program" location="Santa Cruz, CA">
+    <position pos="for" org="Life Lab Science Program" location="Santa Cruz, CA">
         <dates start="January 2008" end="November 2010" />
         <title>Web Development Consultant</title>
         <duty>WordPress theme development.</duty>
@@ -164,15 +165,15 @@
         <accomplishment>Wrote parsing tools with regular expressions to assist in automatic migration.</accomplishment>
     </position>
 
-    <position at="Aptos Learning Center" location="Aptos, CA">
+    <position pos="at" org="Aptos Learning Center" location="Aptos, CA">
         <dates start="August 2008" end="September 2009" />
         <title>Tutor</title>
         <duty>Mathematics, logic, analytical thinking and English syntax tutoring of students grade 5-11 with learning differences</duty>
-        <duty>Created and implemented supplemental teaching aides for instruction in arithmetic</duty>
+        <duty>Creating and implementing supplemental teaching aides for instruction in arithmetic</duty>
         <duty>Utilized the On Cloud Nine(tm) Teaching System</duty>
     </position>
 
-    <position with="Merit Educational Consultants LLC" location="Soquel, CA">
+    <position pos="with" org="Merit Educational Consultants LLC" location="Soquel, CA">
         <dates start="August 2008" end="July 2009" />
         <title>Tutor</title>
         <duty>Tutoring/instruction in web design</duty>
@@ -180,7 +181,8 @@
         <duty>Mathematics (SAT/College prep) tutoring</duty>
     </position>
 
-    <position at="UCSC Division of Physical and Biological Sciences" location="Santa Cruz, CA">
+    <position pos="at" org="UCSC Division of Physical and Biological Sciences" location="Santa Cruz, CA">
+        <dates start="September 2005" end="March 2009" />
         <title>Reader</title>
         <title>Grader</title>
         <duty>Proofreading and evaluation of coursework in physics at the undergraduate level</duty>
