@@ -1,9 +1,10 @@
 body {
   font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.0em;
   text-rendering: optimizelegibility; }
 
 h2 {
-  border-bottom: 1px solid gray; }
+  border-bottom: 0.1em solid gray; }
 
 ul.plain {
   list-style-type: none; }
@@ -12,8 +13,7 @@ ul.bulletcloud {
   margin-right: 0; }
   ul.bulletcloud li {
     display: inline-block;
-    margin-right: 0.5em;
-    font-size: 1.0em; }
+    margin-right: 0.5em; }
   ul.bulletcloud li:nth-child(n+2)::before {
     content: "  \02666  "; }
 
@@ -21,11 +21,10 @@ ul.plaincloud {
   list-style-type: none; }
   ul.plaincloud li {
     display: inline-block;
-    margin-right: 0.5em;
-    font-size: 1.0em; }
+    margin-right: 0.5em; }
 
 div#certlogos img {
-  max-height: 3.0em;
+  max-height: 5.0em;
   margin: 0 1.0em; }
 
 table.basic td, table.basic th {
@@ -37,6 +36,3 @@ span.company {
 
 ul.duties::before {
   content: "Duties: "; }
-
-table {
-  font-size: 1.0em; }
