@@ -13,9 +13,6 @@
 <!ELEMENT identity (fullname|contact|socialmedia)*>
 <!ELEMENT strengths (point+)>
 
-<!-- expertise::children -->
-<!ELEMENT area CDATA>
-
 <!-- skills::children -->
 <!ELEMENT skillset (skill+)>
 
@@ -24,17 +21,15 @@
 
 <!-- achievements::children -->
 <!ELEMENT achievement (title,brief)>
-<!ATTLIST achievement %commonattr
 
 <!-- projects::children -->
 <!ELEMENT project (title,brief,point*)>
 
 <!-- personal::contact::children -->
-<!ELEMENT contact (phone|email|address|website)*)>
+<!ELEMENT contact (phone|email|address|website)*>
 <!ELEMENT socialmedia (link*)>
 
 <!-- Leaf node descriptors -->
-
 <!ELEMENT accomplishment CDATA>
 <!ELEMENT area CDATA>
 <!ELEMENT brief CDATA>
