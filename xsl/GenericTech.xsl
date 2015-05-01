@@ -14,8 +14,8 @@
         <h1><xsl:value-of select="fullname" /></h1>
 <p>XLST Resum&#233; stylesheet under construction.<br />
 
-In the mean time, you can see all of what I've put into this
-</b>
+In the mean time, you can see all of the data in my resum&#233; by <a href="https://github.com/Deconstrained/deconstrained.github.io/blob/master/resume.xml">viewing the source code</a>.
+</p>
         
 
         <div id="contact">
