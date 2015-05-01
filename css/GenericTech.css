@@ -12,7 +12,8 @@ ul.bulletcloud {
   margin-right: 0; }
   ul.bulletcloud li {
     display: inline-block;
-    margin-right: 0.5em; }
+    margin-right: 0.5em;
+    font-size: 1.0em; }
   ul.bulletcloud li:nth-child(n+2)::before {
     content: "  \02666  "; }
 
@@ -20,7 +21,8 @@ ul.plaincloud {
   list-style-type: none; }
   ul.plaincloud li {
     display: inline-block;
-    margin-right: 0.5em; }
+    margin-right: 0.5em;
+    font-size: 1.0em; }
 
 div#certlogos img {
   max-height: 3.0em;
@@ -35,3 +37,6 @@ span.company {
 
 ul.duties::before {
   content: "Duties: "; }
+
+table {
+  font-size: 1.0em; }

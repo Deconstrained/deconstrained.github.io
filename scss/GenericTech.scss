@@ -11,6 +11,7 @@ h2 { border-bottom: 1px solid gray; }
     li {
         display: inline-block;
         margin-right:0.5em;
+        font-size: 1.0em;
     }
 }
 
@@ -53,4 +54,8 @@ span.company {
 
 ul.duties::before {
     content: "Duties: ";
+}
+
+table {
+    font-size: 1.0em;
 }
