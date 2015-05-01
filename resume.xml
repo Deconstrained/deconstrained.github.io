@@ -11,16 +11,17 @@
         <fullname>Demitri A. Morgan</fullname>
 
         <contact>
-            <phone type="cell">(831) 607-9833</phone>
-            <email type="personal">demitri.morgan@gmail.com</email>
+            <phone type="Google voice">(831) 607-9833</phone>
+            <email>demitri.morgan@gmail.com</email>
             <website href="http://deconstrained.github.io">deconstrained.github.io</website>
         </contact>
 
         <socialmedia>
-            <link site="LinkedIn">demitrimorgan</link>
-            <link site="GitHub">Deconstrained</link>
-            <link site="Google+">+DemitriMorgan</link>
-            <link site="Twitter">demetriusarthur</link>
+            <link site="LinkedIn" href="https://www.linkedin.com/in/demitrimorgan">demitrimorgan</link>
+            <link site="GitHub" href="https://github.com/Deconstrained">Deconstrained</link>
+            <link site="Google+" href="https://plus.google.com/+DemitriMorgan/">+DemitriMorgan</link>
+            <!-- <link site="Twitter" href="https://twitter.com/DemetriusArthur/">demetriusarthur</link> -->
+            <link site="Facebook" href="https://www.facebook.com/demitri.morgan">demitri.morgan</link>
         </socialmedia>
 
     </identity>
@@ -38,13 +39,13 @@
 <expertise>
     <area cat="academic">Computational Physics</area>
     <area cat="software">Web Development</area>
-    <area cat="software,academic">Version Control</area>
-    <area cat="academic">MVC-based Design</area>
+    <!-- Reason: not an expertise but a skill, and Git is covered <area cat="software,academic">Version Control</area> -->
+    <!-- <area cat="academic">MVC-based Design</area> -->
     <area cat="software">Test-driven Development</area>
     <area cat="IT">UNIX administration</area>
     <area cat="IT">Network Configuration</area>
     <area cat="IT">IT Troubleshooting</area>
-    <area cat="IT">Datacenter</area>
+    <area cat="IT">Datacenter Support</area>
     <area cat="academic">Tutoring</area>
 </expertise>
 

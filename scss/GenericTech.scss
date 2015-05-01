@@ -1,0 +1,23 @@
+$almostBlack: #222;
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    text-rendering: optimizelegibility;
+}
+@mixin plainlist {
+    list-style-type: none;
+}
+
+ul.plain {
+    @include plainlist;
+}
+
+ul.cloud {
+    @include plainlist;
+
+    li {
+        display: inline;
+        margin-right: 1.0em;
+    }
+}
+
