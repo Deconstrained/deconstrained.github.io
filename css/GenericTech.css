@@ -3,6 +3,9 @@ body {
   font-size: 1.0em;
   text-rendering: optimizelegibility; }
 
+h1, h2 {
+  color: #222222; }
+
 h2 {
   border-bottom: 0.1em solid gray; }
 
