@@ -43,6 +43,9 @@ div#certlogos {
 }
 
 table.basic {
+    width: 100%;
+    display:block;
+    overflow-x: auto;
     td,th { 
         padding: 0 1.0em; 
     }

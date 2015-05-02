@@ -29,8 +29,12 @@ div#certlogos img {
   max-height: 5.0em;
   margin: 0 1.0em; }
 
-table.basic td, table.basic th {
-  padding: 0 1.0em; }
+table.basic {
+  width: 100%;
+  display: block;
+  overflow-x: auto; }
+  table.basic td, table.basic th {
+    padding: 0 1.0em; }
 
 span.company {
   font-style: italic;
