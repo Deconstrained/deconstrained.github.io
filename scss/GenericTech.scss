@@ -2,7 +2,6 @@ $almostBlack: #222;
 
 body {
     font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-    font-size: 1.0em;
     text-rendering: optimizelegibility;
 }
 h1,h2 {color: $almostBlack; }
@@ -44,8 +43,9 @@ div#certlogos {
 }
 
 table.basic {
-    td,th { padding: 0 1.0em; }
-
+    td,th { 
+        padding: 0 1.0em; 
+    }
 }
 
 span.company {
