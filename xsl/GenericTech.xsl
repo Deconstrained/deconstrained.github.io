@@ -44,7 +44,7 @@
 </div><!-- #personal -->
 
 <h2>Qualifications</h2>
-<ul id="strengths" class="plain">
+<ul id="strengths">
     <xsl:for-each select="personal/strengths/point">
         <li><xsl:value-of select="." /></li>
     </xsl:for-each>
@@ -52,7 +52,7 @@
 
 
 <h2>Expertise</h2>
-<ul id="expertise" class="plain">
+<ul id="expertise">
     <xsl:for-each select="expertise/area">
         <li><xsl:value-of select="." /></li>
     </xsl:for-each>
@@ -69,12 +69,6 @@
 </xsl:for-each><!-- </skills> -->
 
 <h2>Certifications</h2>
-<div id="certlogos">
-    <xsl:for-each select="certifications/certlogo">
-        <xsl:copy-of select="." />
-    </xsl:for-each><!-- </certlogo> -->
-</div>
-
 <table class="basic" id="certifications">
     <thead>
         <tr>
@@ -93,6 +87,12 @@
     </xsl:for-each><!-- </certifications> -->
     </tbody>
 </table><!-- #certifications -->
+
+<div id="certlogos">
+    <xsl:for-each select="certifications/certlogo">
+        <xsl:copy-of select="." />
+    </xsl:for-each><!-- </certlogo> -->
+</div>
 
 <h2>Education</h2>
 
@@ -129,17 +129,35 @@
             <xsl:value-of select="." />
         </xsl:for-each><!-- </title> -->
     </h3> 
-    <span class="company"><xsl:value-of select="./@pos" />&#160;<xsl:value-of select="./@org" /></span>, From <xsl:value-of select="dates/@start" /> to <xsl:value-of select="dates/@end" />
-    <ul class="bulletcloud duties">
-        <xsl:for-each select="duty">
-            <li><xsl:value-of select="." /></li>
-        </xsl:for-each>
-    </ul>
-    <ul>
-        <xsl:for-each select="accomplishment">
-            <li><xsl:value-of select="." /></li>
-        </xsl:for-each>
-    </ul>
+    <xsl:variable name="org">
+        <xsl:text>
+        </xsl:text>
+        <xsl:choose>
+            <xsl:when test="./@href">
+                <a href="{./@href}"><xsl:value-of select="./@org" /></a>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="./@org" />
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
+    <em><xsl:value-of select="./@pos" />&#160;<xsl:copy-of select="$org" />,</em> From <xsl:value-of select="dates/@start" /> to <xsl:value-of select="dates/@end" />;<br />
+    <xsl:if test="duty">
+        <em>Duties:</em> 
+        <ul class="breakdown">
+            <xsl:for-each select="duty">
+                <li><xsl:value-of select="." /></li>
+            </xsl:for-each>
+        </ul>
+    </xsl:if>
+    <xsl:if test="accomplishment">
+        <em>Acccomplishments:</em>
+        <ul class="breakdown">
+            <xsl:for-each select="accomplishment">
+                <li><xsl:value-of select="." /></li>
+            </xsl:for-each>
+        </ul>
+    </xsl:if>
 </xsl:for-each><!-- </experience> -->
 
 </body>

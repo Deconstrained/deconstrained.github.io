@@ -78,7 +78,7 @@
 <!ATTLIST email %type;>
 <!ATTLIST link site CDATA #REQUIRED>
 <!ATTLIST phone %type;>
-<!ATTLIST position location CDATA #IMPLIED pos CDATA #IMPLIED org CDATA #IMPLIED>
+<!ATTLIST position location CDATA #IMPLIED pos CDATA #IMPLIED org CDATA #IMPLIED href CDATA #IMPLIED>
 <!ATTLIST projects %type;>
 <!ATTLIST skills %type;>
 <!ATTLIST skillset %type; %cat;>
