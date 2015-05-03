@@ -4,6 +4,7 @@
 <xsl:template match="/resume">
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title><xsl:value-of select="personal/identity/fullname" /></title>
 <link rel="stylesheet" href="css/GenericTech.css" type="text/css" />
 </head>
