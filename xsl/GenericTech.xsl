@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="html" doctype-system="about:legacy-compat" encoding="UTF-8" indent="yes" />
 <xsl:template match="/resume">
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
 <title><xsl:value-of select="personal/identity/fullname" /></title>
 <link rel="stylesheet" href="css/GenericTech.css" type="text/css" />
 </head>
