@@ -102,11 +102,11 @@
     <certification agency="W3Schools" title="XML" date="November 2014" />
 
     <certlogo>
-        <a href="http://www.refsnesdata.no/certification/w3certified.asp?email=demitri.morgan@gmail.com"><img src="img/w3cert.png" style="border:0" /></a>
+        <a href="http://www.refsnesdata.no/certification/w3certified.asp?email=demitri.morgan@gmail.com"><img src="img/w3cert.png" style="border:0" alt="W3Schools" /></a>
     </certlogo>
 
     <certlogo>
-        <img src="img/NetworkPlus_Certified_CE_Logo.png" />
+        <img src="img/NetworkPlus_Certified_CE_Logo.png" alt="CompTIA Network+ CE" />
     </certlogo>
 
 </certifications>
