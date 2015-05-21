@@ -14,6 +14,8 @@
 
 <div id="personal">
     <h1><xsl:value-of select="personal/identity/fullname" /></h1>
+    <img id="portrait" alt="Portrait (2012)" src="img/2012.jpg" />
+
     <div id="contact">
         <ul class="plaincloud">
             <xsl:for-each select="personal/identity/contact/*">
@@ -42,6 +44,7 @@
             </xsl:for-each><!-- </link> -->
         </ul>
     </div><!-- #socialmedia -->
+    
 
 </div><!-- #personal -->
 
