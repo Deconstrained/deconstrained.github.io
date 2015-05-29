@@ -1,9 +1,5 @@
 $almostBlack: #222;
 
-@font-face {
-    font-family: 'Symbola-Hosted';
-    src:url('../fonts/Symbola.ttf');
-}
 body {
     font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
     text-rendering: optimizelegibility;
@@ -67,10 +63,6 @@ table#certifications {
     margin-bottom: 1em;
 }
 
-.glyph {
-    font-family: 'Symbola','Symbola-Hosted';
-}
-
 ul.breakdown {
     margin-top: 0;
     margin-bottom: 0.2em;
@@ -84,6 +76,7 @@ img#portrait {
     float: right;
 }
 
-a#pgp {
-    text-decoration:none;
+.glyph {
+    font-family: Symbol,Dingbats,sans-serif;
 }
+

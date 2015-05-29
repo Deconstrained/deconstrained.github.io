@@ -21,7 +21,7 @@
             <xsl:for-each select="personal/identity/contact/*">
                 <li>
                     <xsl:if test="name() = 'phone'">
-                        <span class="glyph">&#128241;</span>&#160;<a href="tel:{.}" title="phone"><xsl:value-of select="." /></a>
+                    <span class="glyph">&#9990;</span>&#160;<a href="tel:{.}" title="phone"><xsl:value-of select="." /></a>
                     </xsl:if><!-- </phone> -->
                     <xsl:if test="name() = 'email'">
                     <span class="glyph">&#9993;</span>&#160;<a href="mailto:{.}" title="email"><xsl:value-of select="." /></a>
@@ -34,7 +34,7 @@
                     </xsl:if>
                 </li>
             </xsl:for-each>
-            <li><span class="glyph">&#128274;</span>&#160;<a title="PGP Public Key" href="./Demitri-Morgan-pgp.asc">Public Key</a></li>
+            <li><span class="glyph">&#10043;</span>&#160;<a title="PGP Public Key" href="./Demitri-Morgan-pgp.asc">PGP Public Key</a></li>
         </ul><!-- .cloud -->
     </div><!-- #contact -->
 
