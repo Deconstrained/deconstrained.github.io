@@ -64,7 +64,11 @@ img#portrait {
   width: 100px;
   border: 0;
   display: block;
-  float: right; }
+  float: right;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px; }
 
 .glyph {
   font-family: Symbol,Dingbats,sans-serif; }

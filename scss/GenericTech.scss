@@ -1,4 +1,5 @@
 $almostBlack: #222;
+$borderPrefixes: -moz-border,-webkit-border,-o-border,border; 
 
 body {
     font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
@@ -74,6 +75,10 @@ img#portrait {
     border: 0;
     display: block;
     float: right;
+    @each $btype in $borderPrefixes {
+        #{$btype}-radius: 50px;
+    }
+
 }
 
 .glyph {

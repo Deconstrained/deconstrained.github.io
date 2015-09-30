@@ -14,7 +14,7 @@
 
 <div id="personal">
     <h1><xsl:value-of select="personal/identity/fullname" /></h1>
-    <img id="portrait" alt="Portrait (2012)" src="https://en.gravatar.com/userimage/40717660/7263853dc6ed4983dd67c991b303712c.jpeg?size=100" height="100" width="100" />
+    <img id="portrait" alt="Portrait (2015)" src="https://en.gravatar.com/userimage/40717660/7263853dc6ed4983dd67c991b303712c.jpeg?size=100" height="100" width="100" />
 
     <div id="contact">
         <ul class="plaincloud">
