@@ -93,6 +93,7 @@
 
 <certifications>
     
+    <certification agency="CompTIA" title="Security+" date="March 2016" validuntil="March 2018" />
     <certification agency="CompTIA" title="Network+" date="March 2015" validuntil="March 2018" />
     <certification agency="W3Schools" title="HTML" date="November 2014" />
     <certification agency="W3Schools" title="CSS" date="November 2014" />
@@ -107,6 +108,10 @@
 
     <certlogo>
         <img src="img/NetworkPlus_Certified_CE_Logo.png" alt="CompTIA Network+ CE" />
+    </certlogo>
+
+    <certlogo>
+        <img src="img/SecurityPlus_Certified_CE_Logo.png" alt="CompTIA Network+ CE" />
     </certlogo>
 
 </certifications>
@@ -221,7 +226,7 @@
     </project>
 
     <project>
-        <title>Gummii</title>
+        <title>NTG</title>
         <brief>An experimental single-page application (SPA) boilerplate</brief>
         <point>Themeable using jQuery UI</point>
         <point>User authentication and authorization</point>

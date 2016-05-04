@@ -14,7 +14,6 @@ a {color: #66A; text-decoration: none; }
 a:hover {text-decoration: underline; }
 
 
-
 @mixin cloudlist {
     margin: 0; padding: 0;
     li {
@@ -50,8 +49,9 @@ ul.plaincloud {
 
 div#certlogos {
     img {
-        max-height: 3.0em;
+        max-width: 5.0em;
         margin: 0 1.0em;
+        vertical-align: top;
     }
 }
 

@@ -43,8 +43,9 @@ ul.plaincloud {
     line-height: 1.5em; }
 
 div#certlogos img {
-  max-height: 3.0em;
-  margin: 0 1.0em; }
+  max-width: 5.0em;
+  margin: 0 1.0em;
+  vertical-align: top; }
 
 table.basic {
   font-size: 0.9em;
