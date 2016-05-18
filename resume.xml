@@ -126,7 +126,7 @@
         <duty>Cable management</duty>
         <duty>Hands-on data center support</duty>
         <duty>Network, email and web hosting troubleshooting</duty>
-        <accomplishment>(in progress; nearly finished) Fully automated the process of detecting and notifying customers of vulnerable/out of date web application software in their hosting accounts</accomplishment>
+        <accomplishment>Developed a system to automate detecting and notifying web hosting customers of vulnerable/out of date web application software</accomplishment>
     </position>
 
     <position pos="at" org="X2Engine Inc." location="Santa Cruz, CA" href="http://www.x2engine.com/">
@@ -136,16 +136,16 @@
         <duty>Configuring and maintaining company IT systems</duty>
         <duty>Development of core software components and services</duty>
         <duty>Documentation authoring</duty>
+        <duty>Troubleshooting for customers and end users.</duty>
         <accomplishment>Created multiple automated systems for deploying the product as a service on-demand in LAMP environments.</accomplishment>
-        <accomplishment>Introduced numerous best practices to the project, including unit testing with PHPUnit and software documentation with JavaDoc-style comments.</accomplishment>
-        <accomplishment>Redesigned the software update process, improving its overall efficiency and stability, reducing the time to release a new version by as much as 80%, and giving it the ability to support multiple products.</accomplishment>
+        <accomplishment>Introduced best practices to the project, including unit testing with PHPUnit and documentation.</accomplishment>
+        <accomplishment>Redesigned the software update process, improving its efficiency and stability, reducing the time to release a new version by as much as 80%, and giving it the ability to support multiple products.</accomplishment>
         <accomplishment>Trained four other staff engineers.</accomplishment>
         <accomplishment>Designed and built a REST-ful JSON API compatible with Zapier.</accomplishment>
         <accomplishment>Developed server monitoring and status alert programs</accomplishment>
-        <accomplishment>Created the X2Planet license key and software registration service.</accomplishment>
-        <accomplishment>Authored extensive and detailed documentation using MediaWiki - see wiki.x2engine.com</accomplishment>
-        <accomplishment>Installed, configured and administered the company's Asterisk-based VoIP phone system and numerous other internal-use software components, scripts, networks, web applications, services and systems.</accomplishment>
-        <accomplishment>Assisted and solved problems for customers and end users.</accomplishment>
+        <accomplishment>Created the X2Planet license key and software registration service</accomplishment>
+        <accomplishment>Authored extensive and detailed documentation using MediaWiki - see wiki.x2crm.com</accomplishment>
+        <accomplishment>Installed, configured and administered the company's Asterisk-based VoIP phone system and other internal solutions</accomplishment>
     </position>
 
     <position pos="with" org="University Space Research Association" location="Mountain View, CA" href="http://www.usra.edu/">
