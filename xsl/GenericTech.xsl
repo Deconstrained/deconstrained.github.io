@@ -168,6 +168,13 @@
     </xsl:if>
 </xsl:for-each><!-- </experience> -->
 
+<h2>Hobbies</h2>
+<ul>
+<xsl:for-each select="hobbies/hobby">
+    <li><xsl:copy-of select="." /></li>
+</xsl:for-each>
+</ul>
+
 </body>
 </html>
 </xsl:template>
