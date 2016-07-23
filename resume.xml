@@ -29,7 +29,7 @@
     <strengths><!-- Type any and all strong points here, specify the specialization as a comma-delinated type attribute-->
         <point>Self-motivated individual with experience in rapid self-teaching</point>
         <point cat="IT,education">Ability to effectively communicate concepts of technical nature</point>
-        <point cat="software">Experienced in both contributing to existing software/research projects and building them from scratch</point>
+        <point cat="software">Experienced in building upon existing effort and creating new projects</point>
         <!-- <point cat="foodservice,bluecollar">Experienced and able to safely lift heavy objects and work with hazardous materials</point>
         <point cat="foodservice">Over a decade of combined prep cooking and dishwashing experience in both both a professional and personal setting.</point> -->
     </strengths>
@@ -126,7 +126,7 @@
         <duty>Cable management</duty>
         <duty>Hands-on data center support</duty>
         <duty>Network, email and web hosting troubleshooting</duty>
-        <accomplishment>Developed a system to automate detecting and notifying web hosting customers of vulnerable/out of date web application software</accomplishment>
+        <accomplishment>Developed a website vulnerability scanning system</accomplishment>
     </position>
 
     <position pos="at" org="X2Engine Inc." location="Santa Cruz, CA" href="http://www.x2engine.com/">
@@ -135,30 +135,29 @@
         <title>Systems Administrator</title>
         <duty>Configuring and maintaining company IT systems</duty>
         <duty>Development of core software components and services</duty>
-        <duty>Documentation authoring</duty>
-        <duty>Troubleshooting for customers and end users.</duty>
-        <accomplishment>Created multiple automated systems for deploying the product as a service on-demand in LAMP environments.</accomplishment>
-        <accomplishment>Introduced best practices to the project, including unit testing with PHPUnit and documentation.</accomplishment>
-        <accomplishment>Redesigned the software update process, improving its efficiency and stability, reducing the time to release a new version by as much as 80%, and giving it the ability to support multiple products.</accomplishment>
-        <accomplishment>Trained four other staff engineers.</accomplishment>
-        <accomplishment>Designed and built a REST-ful JSON API compatible with Zapier.</accomplishment>
-        <accomplishment>Developed server monitoring and status alert programs</accomplishment>
-        <accomplishment>Created the X2Planet license key and software registration service</accomplishment>
-        <accomplishment>Authored extensive and detailed documentation using MediaWiki - see wiki.x2crm.com</accomplishment>
-        <accomplishment>Installed, configured and administered the company's Asterisk-based VoIP phone system and other internal solutions</accomplishment>
+        <duty>Documentation</duty>
+        <duty>Troubleshooting for customers and end users</duty>
+        <accomplishment>Automated web software stack installation</accomplishment>
+        <accomplishment>Introduced/implemented best practices including unit testing and documentation</accomplishment>
+        <accomplishment>Automated many steps in the SDLC and update/extended support process</accomplishment>
+        <accomplishment>Trained four other developers</accomplishment>
+        <accomplishment>REST-ful JSON API compatible with Zapier</accomplishment>
+        <accomplishment>Server monitoring and status alert</accomplishment>
+        <accomplishment>Software registration web app/service</accomplishment>
+        <accomplishment>Extensive product documentation</accomplishment>
+        <accomplishment>Company VoIP phone system</accomplishment>
     </position>
 
     <position pos="with" org="University Space Research Association" location="Mountain View, CA" href="http://www.usra.edu/">
         <dates start="July 2009" end="December 2011" />
         <title>Research Associate at NASA Ames Research Center</title>
-        <duty>Working with professors on astrophysical research pertaining to the formation of planetary systems and rings.</duty>
-        <accomplishment>Listed as co-author of P. R. Estrada <em>et al.,</em> Icarus <strong>252</strong> (2015) 415–439</accomplishment>
-        <accomplishment>Isolated and re-purposed components of the Gadget-2 N-Body simulation for use in the planetary accretion problem.</accomplishment>
-        <accomplishment>Created Python-based data parsing, reduction and visualization tools for output from multithreaded simulations.</accomplishment>
-        <accomplishment>Designed and implemented strategies for retrofitting single-CPU astrophysical simulations for running in parallel using OpenMPI.</accomplishment>
-        <accomplishment>Created load optimization algorithms for parallel scientific computing.</accomplishment>
-        <accomplishment>Introduced the practice of using version control and GNU Make, and instructed collaborators in their use.</accomplishment>
-        <accomplishment>Authored extensive documentation using DoxyGen</accomplishment>
+        <duty>Working with professors on astrophysical research pertaining to the formation of planetary systems and rings</duty>
+        <accomplishment>Co-author of P. R. Estrada <em>et al.,</em> Icarus <strong>252</strong> (2015) 415–439</accomplishment>
+        <accomplishment>Implemented components of Gadget-2 N-Body simulation</accomplishment>
+        <accomplishment>Data parsing, reduction and visualization tools</accomplishment>
+        <accomplishment>Redesign of single-threaded scientific computing applications for high-performance parallel computing with MPI</accomplishment>
+        <accomplishment>Load optimization algorithms</accomplishment>
+        <accomplishment>Documentation</accomplishment>
     </position>
 
     <position pos="for" org="Life Lab Science Program" location="Santa Cruz, CA" href="http://www.lifelab.org/">
@@ -167,8 +166,8 @@
         <duty>WordPress theme development</duty>
         <duty>Performing website management and administration tasks</duty>
 
-        <accomplishment>Migrated a static 30+ page HTML website into a dynamic website managed by WordPress.</accomplishment>
-        <accomplishment>Wrote parsing tools with regular expressions to assist in automatic migration.</accomplishment>
+        <accomplishment>Migrated a static 30+ page HTML website into a dynamic website managed by WordPress</accomplishment>
+        <accomplishment>Wrote parsing tools with regular expressions to assist in automatic migration</accomplishment>
     </position>
 
     <position pos="at" org="Aptos Learning Center" location="Aptos, CA">
@@ -221,8 +220,8 @@
         <title>WorkDivSimAnneal</title>
         <brief>Simulated annealing proof-of-concept</brief>
         <point>Two implementations of simulated annealing in Python</point>
-        <point>Finds out the best partitioning of a heterogeneous pool of work units.</point>
-        <point>Real-time visualization of the evolution of the system.</point>
+        <point>Finds out the best partitioning of a heterogeneous pool of work units</point>
+        <point>Real-time visualization of the evolution of the system</point>
     </project>
 
     <project>
