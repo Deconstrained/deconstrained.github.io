@@ -129,14 +129,15 @@
         <accomplishment>Developed a website vulnerability scanning system</accomplishment>
     </position>
 
-    <position pos="at" org="X2Engine Inc." location="Santa Cruz, CA" href="http://www.x2engine.com/">
+    <position pos="at" org="X2Engine Inc." location="Santa Cruz, CA" href="https://www.x2crm.com/">
         <dates start="January 2012" end="July 2014" />
         <title>Software Engineer</title>
         <title>Systems Administrator</title>
         <duty>Configuring and maintaining company IT systems</duty>
         <duty>Development of core software components and services</duty>
+        <duty>Internal systems development</duty>
         <duty>Documentation</duty>
-        <duty>Troubleshooting for customers and end users</duty>
+        <duty>Remote customer support</duty>
         <accomplishment>Automated web software stack installation</accomplishment>
         <accomplishment>Introduced/implemented best practices including unit testing and documentation</accomplishment>
         <accomplishment>Automated many steps in the SDLC and update/extended support process</accomplishment>
@@ -151,12 +152,12 @@
     <position pos="with" org="University Space Research Association" location="Mountain View, CA" href="http://www.usra.edu/">
         <dates start="July 2009" end="December 2011" />
         <title>Research Associate at NASA Ames Research Center</title>
-        <duty>Working with professors on astrophysical research pertaining to the formation of planetary systems and rings</duty>
+        <duty>Working with professors on astrophysical research pertaining to the formation of planetary systems and rings via numerical methods</duty>
         <accomplishment>Co-author of P. R. Estrada <em>et al.,</em> Icarus <strong>252</strong> (2015) 415–439</accomplishment>
         <accomplishment>Implemented components of Gadget-2 N-Body simulation</accomplishment>
         <accomplishment>Data parsing, reduction and visualization tools</accomplishment>
         <accomplishment>Redesign of single-threaded scientific computing applications for high-performance parallel computing with MPI</accomplishment>
-        <accomplishment>Load optimization algorithms</accomplishment>
+        <accomplishment>Load balancing algorithms</accomplishment>
         <accomplishment>Documentation</accomplishment>
     </position>
 

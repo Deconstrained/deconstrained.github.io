@@ -169,7 +169,7 @@
         </ul>
     </xsl:if>
     <xsl:if test="accomplishment">
-        <em>Acccomplishments:</em>
+        <em>Accomplishments:</em>
         <ul class="breakdown">
             <xsl:for-each select="accomplishment">
                 <li><xsl:value-of select="." /></li>
