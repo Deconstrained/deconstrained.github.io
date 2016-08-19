@@ -93,6 +93,7 @@
 
 <certifications>
     
+    <certification agency="Coursera" title="Machine Learning (Stanford University)" date="August 2016" />
     <certification agency="CompTIA" title="Security+" date="March 2016" validuntil="March 2018" />
     <certification agency="CompTIA" title="Network+" date="March 2015" validuntil="March 2018" />
     <certification agency="W3Schools" title="HTML" date="November 2014" />
@@ -114,6 +115,9 @@
         <img src="img/SecurityPlus_Certified_CE_Logo.png" alt="CompTIA Network+ CE" />
     </certlogo>
 
+    <certlogo>
+        <a href="https://www.coursera.org/account/accomplishments/certificate/PZRZ6KH36RY6"><img src="img/CourseraCert.png" alt="Coursera: Standford: Machine Learning" /></a>
+    </certlogo>
 </certifications>
 
 <experience>
