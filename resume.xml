@@ -123,14 +123,16 @@
 <experience>
 
     <position pos="at" org="Hurricane Electric LLC"  location="Fremont, CA" href="http://he.net/">
-        <dates start="October 2014" end="present" />
+        <dates start="October 2014" end="December 2016" />
         <title>Support Engineer</title>
-        <duty>Customer authentication and colocation security</duty>
-        <duty>Hardware installation</duty>
+        <duty>Hands-on datacenter support and troubleshooting</duty>
+        <duty>Colocation security</duty>
+        <duty>Datacenter hardware installation</duty>
         <duty>Cable management</duty>
-        <duty>Hands-on data center support</duty>
         <duty>Network, email and web hosting troubleshooting</duty>
+        <duty>Internal-use web tools</duty>
         <accomplishment>Developed a website vulnerability scanning system</accomplishment>
+        <accomplishment>Created a domain zone auditor that detects and highlights problematic configurations</accomplishment>
     </position>
 
     <position pos="at" org="X2Engine Inc." location="Santa Cruz, CA" href="https://www.x2crm.com/">
