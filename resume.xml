@@ -122,6 +122,11 @@
 
 <experience>
 
+    <position pos="at" org="PagerDuty, Inc." location="San Francisco, CA" href="https://www.pagerduty.com">
+        <dates start="December 2016" end="present" />
+        <title>Technical Support Engineer</title>
+    </position>
+
     <position pos="at" org="Hurricane Electric LLC"  location="Fremont, CA" href="http://he.net/">
         <dates start="October 2014" end="December 2016" />
         <title>Support Engineer</title>
