@@ -9,16 +9,6 @@
 <meta charset="UTF-8" />
 <title><xsl:value-of select="personal/identity/fullname" /></title>
 <link rel="stylesheet" href="css/GenericTech.css" type="text/css" />
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-81215382-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </head>
 <body>
 
@@ -55,7 +45,6 @@
             </xsl:for-each><!-- </link> -->
         </ul>
     </div><!-- #socialmedia -->
-    
 
 </div><!-- #personal -->
 
@@ -66,13 +55,56 @@
     </xsl:for-each>
 </ul><!-- #strengths -->
 
-
 <h2>Expertise</h2>
 <ul id="expertise">
     <xsl:for-each select="expertise/area">
         <li><xsl:value-of select="." /></li>
     </xsl:for-each>
 </ul>
+
+
+<h2>Experience</h2>
+<xsl:for-each select="experience/position">
+    <h3>
+        <xsl:for-each select="title">
+            <xsl:choose>
+                <xsl:when test="position() > 1">
+                    &#160;/&#160;
+                </xsl:when>
+            </xsl:choose>
+            <xsl:value-of select="." />
+        </xsl:for-each><!-- </title> -->
+    </h3> 
+    <xsl:variable name="org">
+        <xsl:text>
+        </xsl:text>
+        <xsl:choose>
+            <xsl:when test="./@href">
+                <a href="{./@href}"><xsl:value-of select="./@org" /></a>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="./@org" />
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
+    <em><xsl:value-of select="./@pos" />&#160;<xsl:copy-of select="$org" />,</em> From <xsl:value-of select="dates/@start" /> to <xsl:value-of select="dates/@end" />;<br />
+    <xsl:if test="duty">
+        <em>Duties:</em> 
+        <ul class="breakdown">
+            <xsl:for-each select="duty">
+                <li><xsl:value-of select="." /></li>
+            </xsl:for-each>
+        </ul>
+    </xsl:if>
+    <xsl:if test="accomplishment">
+        <em>Accomplishments:</em>
+        <ul class="breakdown">
+            <xsl:for-each select="accomplishment">
+                <li><xsl:value-of select="." /></li>
+            </xsl:for-each>
+        </ul>
+    </xsl:if>
+</xsl:for-each><!-- </experience> -->
 
 <h2>Skills</h2>
 <xsl:for-each select="skills/skillset">
@@ -134,49 +166,6 @@
         </xsl:for-each><!-- </education> -->
     </tbody>
 </table><!-- #education -->
-
-<h2>Experience</h2>
-<xsl:for-each select="experience/position">
-    <h3>
-        <xsl:for-each select="title">
-            <xsl:choose>
-                <xsl:when test="position() > 1">
-                    &#160;/&#160;
-                </xsl:when>
-            </xsl:choose>
-            <xsl:value-of select="." />
-        </xsl:for-each><!-- </title> -->
-    </h3> 
-    <xsl:variable name="org">
-        <xsl:text>
-        </xsl:text>
-        <xsl:choose>
-            <xsl:when test="./@href">
-                <a href="{./@href}"><xsl:value-of select="./@org" /></a>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="./@org" />
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:variable>
-    <em><xsl:value-of select="./@pos" />&#160;<xsl:copy-of select="$org" />,</em> From <xsl:value-of select="dates/@start" /> to <xsl:value-of select="dates/@end" />;<br />
-    <xsl:if test="duty">
-        <em>Duties:</em> 
-        <ul class="breakdown">
-            <xsl:for-each select="duty">
-                <li><xsl:value-of select="." /></li>
-            </xsl:for-each>
-        </ul>
-    </xsl:if>
-    <xsl:if test="accomplishment">
-        <em>Accomplishments:</em>
-        <ul class="breakdown">
-            <xsl:for-each select="accomplishment">
-                <li><xsl:value-of select="." /></li>
-            </xsl:for-each>
-        </ul>
-    </xsl:if>
-</xsl:for-each><!-- </experience> -->
 
 <h2>Hobbies</h2>
 <ul>
