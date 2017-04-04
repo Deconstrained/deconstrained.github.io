@@ -48,12 +48,13 @@
 
 </div><!-- #personal -->
 
+<!--
 <h2>Qualifications</h2>
 <ul id="strengths">
     <xsl:for-each select="personal/strengths/point">
         <li><xsl:value-of select="." /></li>
     </xsl:for-each>
-</ul><!-- #strengths -->
+</ul> --><!-- #strengths -->
 
 <h2>Expertise</h2>
 <ul id="expertise">
