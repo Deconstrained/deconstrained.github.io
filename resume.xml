@@ -166,7 +166,7 @@
         <title>Research Associate at NASA Ames Research Center</title>
         <duty>Working with professors on astrophysical research pertaining to the formation of planetary systems and rings via numerical methods</duty>
         <accomplishment>Co-author of P. R. Estrada <em>et al.,</em> Icarus <strong>252</strong> (2015) 415–439</accomplishment>
-        <accomplishment>Implemented components of Gadget-2 N-Body simulation</accomplishment>
+        <accomplishment>Implemented components of Gadget-2 in planetary nebula simulation</accomplishment>
         <accomplishment>Data parsing, reduction and visualization tools</accomplishment>
         <accomplishment>Redesign of single-threaded scientific computing applications for high-performance parallel computing with MPI</accomplishment>
         <accomplishment>Load balancing algorithms</accomplishment>
