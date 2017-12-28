@@ -19,32 +19,16 @@
     <div id="contact">
         <ul class="plaincloud">
             <xsl:for-each select="personal/identity/contact/*">
-                <li>
-                    <xsl:if test="name() = 'phone'">
-                    <span class="glyph">&#9990;</span>&#160;<a href="tel:{.}" title="phone"><xsl:value-of select="." /></a>
-                    </xsl:if><!-- </phone> -->
-                    <xsl:if test="name() = 'email'">
-                    <span class="glyph">&#9993;</span>&#160;<a href="mailto:{.}" title="email"><xsl:value-of select="." /></a>
-                    </xsl:if><!-- </email> -->
-                    <xsl:if test="name() = 'website'">
-                        <span class="glyph">&#9875;</span>&#160;<a href="{./@href}" title="website"><xsl:value-of select="." /></a> 
-                    </xsl:if>
-                    <xsl:if test="./@type != ''">
-                        &#160;(<xsl:value-of select="./@type" />)
-                    </xsl:if>
+                <li><span class="glyph fa fa-{name(.)}" aria-hidden="true"></span>
+                <xsl:choose>
+                    <xsl:when test="name() = 'email'"><a href="mailto:{.}" title="email"><xsl:value-of select="." /></a></xsl:when>
+                    <xsl:when test="name() = 'phone'"><a href="tel:{.}" title="{./@type}"><xsl:value-of select="." /></a></xsl:when>
+                    <xsl:otherwise><a href="{./@href}"><xsl:value-of select="." /></a></xsl:otherwise>
+                </xsl:choose>
                 </li>
             </xsl:for-each>
-            <li><span class="glyph">&#10043;</span>&#160;<a title="PGP Public Key" href="./Demitri-Morgan-pgp.asc">PGP Public Key</a></li>
         </ul><!-- .cloud -->
     </div><!-- #contact -->
-
-    <div id="socialmedia">
-        <ul class="plain">
-            <xsl:for-each select="personal/identity/socialmedia/link">
-            <li><xsl:value-of select="./@site" />: <a href="{./@href}"><xsl:value-of select="." /></a></li>
-            </xsl:for-each><!-- </link> -->
-        </ul>
-    </div><!-- #socialmedia -->
 
 </div><!-- #personal -->
 
@@ -57,11 +41,22 @@
 </ul> --><!-- #strengths -->
 
 <h2>Expertise</h2>
-<ul id="expertise">
+<ul id="expertise" class="bulletcloud">
     <xsl:for-each select="expertise/area">
         <li><xsl:value-of select="." /></li>
     </xsl:for-each>
 </ul>
+
+<h2>Skills</h2>
+<xsl:for-each select="skills/skillset">
+    <h3><xsl:value-of select="./@type" /></h3>
+    <ul class="bulletcloud">
+        <xsl:for-each select="skill">
+            <li><xsl:value-of select="." /></li>
+        </xsl:for-each><!-- </skillset> -->
+    </ul>
+</xsl:for-each><!-- </skills> -->
+
 
 
 <h2>Experience</h2>
@@ -106,16 +101,6 @@
         </ul>
     </xsl:if>
 </xsl:for-each><!-- </experience> -->
-
-<h2>Skills</h2>
-<xsl:for-each select="skills/skillset">
-    <h3><xsl:value-of select="./@type" /></h3>
-    <ul class="bulletcloud">
-        <xsl:for-each select="skill">
-            <li><xsl:value-of select="." /></li>
-        </xsl:for-each><!-- </skillset> -->
-    </ul>
-</xsl:for-each><!-- </skills> -->
 
 <h2>Certifications</h2>
 <table class="basic" id="certifications">

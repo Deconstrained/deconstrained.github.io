@@ -10,7 +10,7 @@
 
 
 <!-- personal::children  -->
-<!ELEMENT identity (fullname|contact|socialmedia)*>
+<!ELEMENT identity (fullname|contact)*>
 <!ELEMENT strengths (point+)>
 
 <!-- skills::children -->
@@ -26,8 +26,7 @@
 <!ELEMENT project (title,brief,point*)>
 
 <!-- personal::contact::children -->
-<!ELEMENT contact (phone|email|address|website)*>
-<!ELEMENT socialmedia (link*)>
+<!ELEMENT contact (email|facebook|github|google-plus|linkedin|phone|pubkey|twitter)*>
 
 <!-- Leaf node descriptors -->
 <!ELEMENT accomplishment CDATA>
@@ -39,10 +38,14 @@
 <!ELEMENT degree EMPTY>
 <!ELEMENT duty CDATA>
 <!ELEMENT email CDATA>
+<!ELEMENT facebook CDATA>
 <!ELEMENT fullname CDATA>
-<!ELEMENT link CDATA>
+<!ELEMENT github CDATA>
+<!ELEMENT google-plus CDATA>
+<!ELEMENT linkedin CDATA>
 <!ELEMENT phone CDATA>
 <!ELEMENT point CDATA>
+<!ELEMENT pubkey CDATA>
 <!ELEMENT skill CDATA>
 <!ELEMENT title CDATA>
 <!ELEMENT website CDATA>
@@ -76,10 +79,14 @@
 <!ATTLIST dates start CDATA #REQUIRED end CDATA "present">
 <!ATTLIST degree %title; major CDATA #REQUIRED institution CDATA #REQUIRED year CDATA #REQUIRED gpa CDATA #IMPLIED>
 <!ATTLIST email %type;>
-<!ATTLIST link site CDATA #REQUIRED>
+<!ATTLIST facebook %href;>
+<!ATTLIST github %href;>
+<!ATTLIST google-plus %href;>
+<!ATTLIST linkedin %href;>
 <!ATTLIST phone %type;>
 <!ATTLIST position location CDATA #IMPLIED pos CDATA #IMPLIED org CDATA #IMPLIED href CDATA #IMPLIED>
 <!ATTLIST projects %type;>
+<!ATTLIST pubkey %href;>
 <!ATTLIST skills %type;>
 <!ATTLIST skillset %type; %cat;>
 <!ATTLIST website href CDATA #REQUIRED>

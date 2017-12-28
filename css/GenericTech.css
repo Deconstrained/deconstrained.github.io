@@ -4,7 +4,7 @@ body {
   font-size: 1em; }
 
 h1, h2 {
-  color: #222222; }
+  color: #222; }
 
 h2 {
   border-bottom: 0.1em solid gray; }
@@ -71,5 +71,49 @@ img#portrait {
   -o-border-radius: 50px;
   border-radius: 50px; }
 
-.glyph {
-  font-family: Symbol,Dingbats,sans-serif; }
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(../fontawesome/fa-solid-900.eot);
+  src: url(../fontawesome/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../fontawesome/fa-solid-900.woff) format("woff"), url(../fontawesome/fa-solid-900.woff2) format("woff2"), url(../fontawesome/fa-solid-900.ttf) format("truetype"), url(../fontawesome/fa-solid-900.svg) format("svg");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: 'FontAwesomeBrands';
+  src: url(../fontawesome/fa-brands-400.eot);
+  src: url(../fontawesome/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../fontawesome/fa-brands-400.woff2) format("woff2"), url(../fontawesome/fa-brands-400.woff) format("woff"), url(../fontawesome/fa-brands-400.ttf) format("truetype"), url(../fontawesome/fa-brands-400.svg) format("svg");
+  font-style: normal;
+  font-weight: normal; }
+span.glyph {
+  padding: 0 0.3em 0 0.7em; }
+
+.fa {
+  font-family: 'FontAwesome', Fallback, sans-serif; }
+
+.fa.fa-facebook, .fa.fa-github, .fa.fa-github, .fa.fa-google-plus, .fa.fa-linkedin, .fa.fa-twitter {
+  font-family: 'FontAwesomeBrands', Fallback, sans-serif; }
+
+.fa-email::before {
+  content: "\f0e0"; }
+
+.fa-facebook::before {
+  content: "\f09a"; }
+
+.fa-github::before {
+  content: "\f09b"; }
+
+.fa-google-plus::before {
+  content: "\f2b3"; }
+
+.fa-linkedin::before {
+  content: "\f08c"; }
+
+.fa-phone::before {
+  content: "\f10b"; }
+
+.fa-pubkey::before {
+  content: "\f023"; }
+
+.fa-twitter::before {
+  content: "\f2b3"; }
+
+/*# sourceMappingURL=GenericTech.css.map */
