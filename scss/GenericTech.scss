@@ -1,12 +1,13 @@
-$almostBlack: #222;
+$almostBlack: #2D2D2D;
 $borderPrefixes: -moz-border,-webkit-border,-o-border,border; 
 
 body {
     font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
     text-rendering: optimizelegibility;
     font-size: 1em;
+    background-color: #F5F5F5;
 }
-h1,h2 {color: $almostBlack; }
+h1,h2,hr {color: $almostBlack; }
 
 h2 { border-bottom: 0.1em solid gray; }
 
