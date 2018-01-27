@@ -43,6 +43,7 @@
 <!ELEMENT github CDATA>
 <!ELEMENT google-plus CDATA>
 <!ELEMENT linkedin CDATA>
+<!ELEMENT twitter CDATA>
 <!ELEMENT phone CDATA>
 <!ELEMENT point CDATA>
 <!ELEMENT pubkey CDATA>
@@ -83,6 +84,7 @@
 <!ATTLIST github %href;>
 <!ATTLIST google-plus %href;>
 <!ATTLIST linkedin %href;>
+<!ATTLIST twitter %href;>
 <!ATTLIST phone %type;>
 <!ATTLIST position location CDATA #IMPLIED pos CDATA #IMPLIED org CDATA #IMPLIED href CDATA #IMPLIED>
 <!ATTLIST projects %type;>
