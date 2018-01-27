@@ -84,7 +84,20 @@ img#portrait {
 
 
 @font-face {
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesomeRegular';
+    src: url(../fontawesome/fa-regular-400.eot);
+    src:url(../fontawesome/fa-regular-400.eot?#iefix) format('embedded-opentype'),
+        url(../fontawesome/fa-regular-400.woff) format('woff'),
+        url(../fontawesome/fa-regular-400.woff2) format('woff2'),
+        url(../fontawesome/fa-regular-400.ttf) format('truetype'),
+        url(../fontawesome/fa-regular-400.svg) format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: 'FontAwesomeSolid';
     src: url(../fontawesome/fa-solid-900.eot);
     src:url(../fontawesome/fa-solid-900.eot?#iefix) format('embedded-opentype'),
         url(../fontawesome/fa-solid-900.woff) format('woff'),
@@ -108,8 +121,7 @@ img#portrait {
 }
 
 span.glyph { padding: 0 0.3em 0 0.7em; }
-.fa { font-family: 'FontAwesome', Fallback, sans-serif; }
-.fa.fa-facebook,.fa.fa-github,.fa.fa-github,.fa.fa-google-plus,.fa.fa-linkedin,.fa.fa-twitter { font-family: 'FontAwesomeBrands', Fallback, sans-serif; }
+.fa { font-family: 'FontAwesomeBrands', 'FontAwesomeSolid', 'FontAwesomeRegular', Fallback, sans-serif; }
 
 .fa-email::before { content: "\f0e0"; }
 .fa-facebook::before { content: "\f09a"}
@@ -119,3 +131,5 @@ span.glyph { padding: 0 0.3em 0 0.7em; }
 .fa-phone::before { content: "\f10b"; }
 .fa-pubkey::before { content: "\f023"; }
 .fa-twitter::before { content: "\f099"; }
+.fa-site::before { content: "\f0c1"; }
+.fa-reddit::before { content: "\f281"; }

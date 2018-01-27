@@ -13,12 +13,14 @@
         <contact>
             <email>demitri.morgan@gmail.com</email>
             <phone type="Google Voice">(510) 972-4507</phone>
-            <pubkey href="./Demitri-Morgan-pgp.asc">1C3CB584367C4B30</pubkey>
+            <pubkey href="./Demitri-Morgan-pgp.asc">367C4B30</pubkey>
             <github href="https://github.com/Deconstrained">Deconstrained</github>
-            <google-plus href="https://plus.google.com/+DemitriMorgan">+DemitriMorgan</google-plus>
             <facebook href="https://facebook.com/demitri.morgan">demitri.morgan</facebook>
             <linkedin href="https://linkedin.com/in/demitrimorgan">demitrimorgan</linkedin>
             <twitter href="https://twitter.com/DemitriAMorgan">DemitriAMorgan</twitter>
+            <google-plus href="https://plus.google.com/+DemitriMorgan">+DemitriMorgan</google-plus>
+            <reddit href="https://reddit.com/u/Deconstrained">Deconstrained</reddit>
+            <site href="https://keybase.io/demitrimorgan">keybase.io/demitrimorgan</site>
         </contact>
 
     </identity>
