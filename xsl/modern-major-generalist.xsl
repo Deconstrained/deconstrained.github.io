@@ -14,7 +14,7 @@
 
 <div id="personal">
     <h1><xsl:value-of select="personal/identity/fullname" /></h1>
-    <img id="portrait" alt="Portrait (2015)" src="https://en.gravatar.com/userimage/40717660/7ecdeb4cc05c9f54752103937f8f16b0.jpg?size=100" height="100" width="100" />
+    <img id="portrait" alt="Portrait (2015)" src="https://secure.gravatar.com/avatar/6eff1207b5f18b025c07856ec697e67c?size=100" />
 
     <div id="contact">
         <ul class="plaincloud">
@@ -32,20 +32,19 @@
 
 </div><!-- #personal -->
 
-<!--
 <h2>Qualifications</h2>
-<ul id="strengths">
+<ul id="strengths" class="bulletcloud">
     <xsl:for-each select="personal/strengths/point">
         <li><xsl:value-of select="." /></li>
     </xsl:for-each>
-</ul> --><!-- #strengths -->
+</ul><!-- #strengths -->
 
 <h2>Expertise</h2>
 <ul id="expertise" class="bulletcloud">
     <xsl:for-each select="expertise/area">
         <li><xsl:value-of select="." /></li>
     </xsl:for-each>
-</ul>
+</ul><!-- #expertise -->
 
 <h2>Skills</h2>
 <xsl:for-each select="skills/skillset">

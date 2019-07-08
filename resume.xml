@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="xsl/GenericTech.xsl"?>
+<?xml-stylesheet type="text/xsl" href="xsl/modern-major-generalist.xsl"?>
 
 <!DOCTYPE resume SYSTEM "resume.dtd">
 
 <resume>
+
+<areas><!-- Areas of Expertise -->
+    <meta-area name="Software Development Engineering" metacat="sde" />
+    <meta-area name="Academic" metacat="aca" />
+    <meta-area name="DevOps" metacat="devops" />
+    <meta-area name="IT and Systems Administration" metacat="it" />
+    <meta-area name="Education" metacat="edu" />
+    <meta-area name="Food Service" metacat="fds" />
+    <meta-area name="Industrial &amp; Shipping" metacat="blc" />
+</areas>
+
 
 <personal>
     <identity>
@@ -23,107 +34,113 @@
     </identity>
 
     <strengths><!-- Type any and all strong points here, specify the specialization as a comma-delinated type attribute-->
-        <point>Self-motivated individual with experience in rapid self-teaching</point>
-        <point cat="IT,education">Ability to effectively communicate concepts of technical nature</point>
-        <point cat="software">Experienced in building upon existing effort and creating new projects</point>
-        <!-- <point cat="foodservice,bluecollar">Experienced and able to safely lift heavy objects and work with hazardous materials</point>
-        <point cat="foodservice">Over a decade of combined prep cooking and dishwashing experience in both both a professional and personal setting.</point> -->
+        <!-- "I am a/an"s -->
+        <point cat="aca,it,edu,sde,devops">resourceful autodidact</point>
+        <point cat="aca,it,edu,sde,devops">experienced problem-solving communicator</point>
+        <point cat="sde">contributor to projects and frameworks at early and late stage</point>
+        <!-- "I/I have...-->
+        <!-- <point cat="fds,blc">Can safely lift objects up to 30 pounds</point> -->
+        <!-- <point cat="blc,it">Experience with power tools, pallet jack and household hazardous materials</point> -->
+        <!-- <point cat="fds">Two years' prep cook and dishwashing experience in professional setting.</point> -->
     </strengths>
 
 </personal>
 
 <expertise>
-    <area cat="academic">Computational Physics</area>
-    <area cat="software">Web Development</area>
-    <!-- Reason: not an expertise but a skill, and Git is covered <area cat="software,academic">Version Control</area> -->
-    <!-- <area cat="academic">MVC-based Design</area> -->
-    <area cat="software">Test-driven Development</area>
-    <area cat="IT">Unix/GNU administration</area>
-    <area cat="IT">Customer Support</area>
-    <area cat="software">Scripting &amp; Automation</area>
-    <area cat="IT">Network Configuration &amp; Troubleshooting</area>
-    <area cat="IT">IT Troubleshooting</area>
-    <area cat="academic">Tutoring</area>
+    <area cat="it">systems administration</area>
+    <area cat="it,sde">devops</area>
+    <area cat="it">network configuration &amp; troubleshooting</area>
+    <area cat="sde">test-driven development</area>
+    <area cat="it">customer support</area>
+    <area cat="it,sde">software integrations</area>
+    <area cat="sde">web development</area>
+    <area cat="aca">computational physics</area>
+    <area cat="aca">tutoring</area>
 </expertise>
 
 <skills type="Technical">
 
-    <skillset type="Language and Framework" cat="software">
-        <skill>Python</skill>
-        <skill>PHP</skill>
-        <skill>Ruby</skill>
-        <skill>MySQL</skill>
-        <skill>Yii Framework</skill>
-        <skill>JavaScript</skill>
-        <skill>jQuery</skill>
-        <skill>XML</skill>
-        <skill>HTML5</skill>
-        <skill>CSS3</skill>
-        <skill>SASS</skill>
-        <skill>Foundation</skill>
-        <skill>WordPress</skill>
+    <skillset type="Language" cat="sde">
+        <skill>Bash</skill>
         <skill>C</skill>
-        <skill>GNU Make</skill>
+        <skill>JavaScript</skill>
+        <skill>MySQL</skill>
+        <skill>Python</skill>
+        <skill>Ruby</skill>
     </skillset>
 
-    <skillset type="Scientific Computing and Research" cat="academic">
+    <skillset type="Cloud, DevOps and IT" cat="sde">
+        <skill>AWS</skill>
+        <skill>Ansible</skill>
+        <skill>Docker</skill>
+        <skill>Linux</skill>
+        <skill>JIRA</skill>
+        <skill>Nagios</skill>
+        <skill>ServiceNow</skill>
+        <skill>Splunk</skill>
+        <skill>SumoLogic</skill>
+        <skill>Vi</skill>
+    </skillset>
+
+    <skillset type="Web Development" cat="web">
+        <skill>CSS3</skill>
+        <skill>Falcon Framework</skill>
+        <skill>Foundation</skill>
+        <skill>HTML5</skill>
+        <skill>JavaScript</skill>
+        <skill>JSON</skill>
+        <skill>PHP</skill>
+        <skill>SASS</skill>
+        <skill>WordPress</skill>
+        <skill>XML</skill>
+        <skill>Yii Framework</skill>
+        <skill>jQuery</skill>
+    </skillset>
+
+    <skillset type="Scientific Computing and Research" cat="aca">
         <skill>Fortran 77/90</skill>
         <skill>OpenMPI</skill>
         <skill>IDL</skill>
-        <skill>MatLab</skill>
+        <skill>MatLab/Octave</skill>
         <skill>Mathematica</skill>
         <skill>NumPy</skill>
         <skill>MatPlotLib</skill>
         <skill>LaTeX</skill>
-        <skill>Asymptote</skill>
     </skillset>
 
-    <skillset type="Software" cat="IT,software,academic">
+    <skillset type="Software and Low-level IT" cat="it,sde,academic">
         <skill>Linux</skill>
-        <skill>Apache</skill>
+        <skill>Apache/Nginx</skill>
         <skill>Nagios</skill>
+        <skill>GnuPG</skill>
         <skill>Git</skill>
-        <skill>AWS</skill>
         <skill>Vim</skill>
         <skill>Asterisk</skill>
     </skillset>
 
 </skills>
 
-<certifications>
-    
-    <certification agency="Coursera" title="Machine Learning (Stanford University)" date="August 2016" />
-    <certification agency="CompTIA" title="Security+" date="March 2016" validuntil="March 2018" />
-    <certification agency="CompTIA" title="Network+" date="March 2015" validuntil="March 2018" />
-    <certification agency="W3Schools" title="HTML" date="November 2014" />
-    <certification agency="W3Schools" title="CSS" date="November 2014" />
-    <certification agency="W3Schools" title="PHP" date="November 2014" />
-    <certification agency="W3Schools" title="JavaScript" date="November 2014" />
-    <certification agency="W3Schools" title="jQuery" date="November 2014" />
-    <certification agency="W3Schools" title="XML" date="November 2014" />
-
-    <certlogo>
-        <a href="http://www.refsnesdata.no/certification/w3certified.asp?email=demitri.morgan@gmail.com"><img src="img/w3cert.png" style="border:0" alt="W3Schools" /></a>
-    </certlogo>
-
-    <certlogo>
-        <img src="img/NetworkPlus_Certified_CE_Logo.png" alt="CompTIA Network+ CE" />
-    </certlogo>
-
-    <certlogo>
-        <img src="img/SecurityPlus_Certified_CE_Logo.png" alt="CompTIA Network+ CE" />
-    </certlogo>
-
-    <certlogo>
-        <a href="https://www.coursera.org/account/accomplishments/certificate/PZRZ6KH36RY6"><img src="img/CourseraCert.png" alt="Coursera: Standford: Machine Learning" /></a>
-    </certlogo>
-</certifications>
-
 <experience>
 
     <position pos="at" org="PagerDuty, Inc." location="San Francisco, CA" href="https://www.pagerduty.com">
-        <dates start="December 2016" end="present" />
+        <dates start="July 2019" end="present" />
+        <title>Associate Software Engineer</title>
+    </position>
+
+    <position pos="at" org="PagerDuty, Inc." location="San Francisco, CA" href="https://www.pagerduty.com">
+        <dates start="December 2016" end="June 2019" />
         <title>Technical Support Engineer</title>
+        <duty>In-depth technical analysis of customer support issues</duty>
+        <duty>Integrations troubleshooting</duty>
+        <duty>API usage troubleshooting, documentation and advocacy</duty>
+        <duty>Bug identification, diagnostics, reverse-engineering and reporting</duty>
+        <duty>Maintenance, improvement and authorship of internal support tooling and documentation</duty>
+        <accomplishment>Improved long-term maintainability, security, stability, documentation and performance of account cloning tool.</accomplishment>
+        <accomplishment>Created and documented a PagerDuty REST/Events API client for Python 2/3</accomplishment>
+        <accomplishment>Won Sales Achievers Award 2019: Services MVP</accomplishment>
+        <!-- Pending: -->
+        <!-- <accomplishment>Developed secure deployment and management system for internal support ticket dashboard using Ansible</accomplishment> -->
+        <!-- /Pending -->
     </position>
 
     <position pos="at" org="Hurricane Electric LLC"  location="Fremont, CA" href="http://he.net/">
@@ -134,29 +151,28 @@
         <duty>Datacenter hardware installation</duty>
         <duty>Cable management</duty>
         <duty>Network, email and web hosting troubleshooting</duty>
-        <duty>Internal-use web tools</duty>
-        <accomplishment>Developed a website vulnerability scanning system</accomplishment>
-        <accomplishment>Created a domain zone auditor that detects and highlights problematic configurations</accomplishment>
+        <duty>Internal network and system administration tool development</duty>
+        <accomplishment>Created a WordPress vulnerability scanning system</accomplishment>
+        <accomplishment>Developed a domain zone auditor for detecting problematic DNS configurations</accomplishment>
     </position>
 
     <position pos="at" org="X2Engine Inc." location="Santa Cruz, CA" href="https://www.x2crm.com/">
         <dates start="January 2012" end="July 2014" />
         <title>Software Engineer</title>
         <title>Systems Administrator</title>
-        <duty>Configuring and maintaining company IT systems</duty>
-        <duty>Development of core software components and services</duty>
-        <duty>Internal systems development</duty>
+        <duty>Configuration and maintenance of diverse IT systems</duty>
+        <duty>Development of software components and services</duty>
+        <duty>Internal systems and process development</duty>
         <duty>Documentation</duty>
-        <duty>Remote customer support</duty>
-        <accomplishment>Automated web software stack installation</accomplishment>
-        <accomplishment>Introduced/implemented best practices including unit testing and documentation</accomplishment>
+        <duty>Customer support</duty>
+        <accomplishment>Developed web software and application stack deployment process</accomplishment>
+        <accomplishment>Introduced best practices including unit/integration testing and documentation</accomplishment>
         <accomplishment>Automated many steps in the SDLC and update/extended support process</accomplishment>
-        <accomplishment>Trained four other developers</accomplishment>
-        <accomplishment>REST-ful JSON API compatible with Zapier</accomplishment>
-        <accomplishment>Server monitoring and status alert</accomplishment>
-        <accomplishment>Software registration web app/service</accomplishment>
-        <accomplishment>Extensive product documentation</accomplishment>
-        <accomplishment>Company VoIP phone system</accomplishment>
+        <accomplishment>On-boarded four other software engineers</accomplishment>
+        <accomplishment>Built new REST API</accomplishment>
+        <accomplishment>Configured systems monitoring</accomplishment>
+        <accomplishment>Developed software registration / analytics service</accomplishment>
+        <accomplishment>Administered diverse IT assets including phone system, surveillance and door locks</accomplishment>
     </position>
 
     <position pos="with" org="University Space Research Association" location="Mountain View, CA" href="http://www.usra.edu/">
@@ -164,10 +180,9 @@
         <title>Research Associate at NASA Ames Research Center</title>
         <duty>Working with professors on astrophysical research pertaining to the formation of planetary systems and rings via numerical methods</duty>
         <accomplishment>Co-author of P. R. Estrada <em>et al.,</em> Icarus <strong>252</strong> (2015) 415–439</accomplishment>
-        <accomplishment>Implemented components of Gadget-2 in planetary nebula simulation</accomplishment>
-        <accomplishment>Data parsing, reduction and visualization tools</accomplishment>
-        <accomplishment>Redesign of single-threaded scientific computing applications for high-performance parallel computing with MPI</accomplishment>
-        <accomplishment>Load balancing algorithms</accomplishment>
+        <accomplishment>Implemented components of Gadget-2 in a planetary nebula simulation</accomplishment>
+        <accomplishment>Developed data parsing, reduction and visualization tools</accomplishment>
+        <accomplishment>Redesigned single-threaded scientific computing applications for running as multiple threads in parallel with OpenMPI</accomplishment>
         <accomplishment>Documentation</accomplishment>
     </position>
 
@@ -226,6 +241,16 @@
 </achievements>
 
 <projects type="GitHub">
+    
+    <project>
+        <title>PDPYRAS</title>
+        <brief>PagerDuty Python R(EST) A(PI) Sessions</brief>
+        <point>An implementation of the Session class from the Python library <tt>requests</tt></point>
+        <point>Strong implementation of Requests' connection reuse</point>
+        <point>Fulfilment of all basic requirements for accessing the PagerDuty REST API/Events API</point>
+        <point>Strong implementation of Requests' connection reuse</point>
+        <point>Easy access to Requests' methods</point>
+    </project>
 
     <project>
         <title>WorkDivSimAnneal</title>
