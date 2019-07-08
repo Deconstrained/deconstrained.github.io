@@ -101,6 +101,8 @@
     </xsl:if>
 </xsl:for-each><!-- </experience> -->
 
+<!-- TODO: Make a section for GitHub projects -->
+
 <h2>Education</h2>
 
 <table class="basic" id="education">
@@ -124,12 +126,14 @@
     </tbody>
 </table><!-- #education -->
 
+<!--
 <h2>Hobbies</h2>
 <ul>
 <xsl:for-each select="hobbies/hobby">
     <li><xsl:copy-of select="." /></li>
 </xsl:for-each>
 </ul>
+-->
 
 </body>
 </html>

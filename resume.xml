@@ -252,46 +252,6 @@
         <point>Easy access to Requests' methods</point>
     </project>
 
-    <project>
-        <title>WorkDivSimAnneal</title>
-        <brief>Simulated annealing proof-of-concept</brief>
-        <point>Two implementations of simulated annealing in Python</point>
-        <point>Finds out the best partitioning of a heterogeneous pool of work units</point>
-        <point>Real-time visualization of the evolution of the system</point>
-    </project>
-
-    <project>
-        <title>NTG</title>
-        <brief>An experimental single-page application (SPA) boilerplate</brief>
-        <point>Themeable using jQuery UI</point>
-        <point>User authentication and authorization</point>
-        <point>Made portable/redistributable with installer</point>
-        <point>Unit testing environment</point>
-    </project>
-
-    <project>
-        <title>oneunitysb</title>
-        <brief>WordPress Theme for oneunitysb.com</brief>
-        <point>HTML5/CSS3 structure using SASS &amp; HTML5BoilerPlate</point>
-        <point>Adaptive layout with mobile-friendly style</point>
-        <point>Metadata-driven widgets using Advanced Custom Fields</point>
-    </project>
-
-    <project>
-        <title>PrimePy</title>
-        <brief>Number-theory module for Python</brief>
-        <point>Finds the Nth prime number using a cumulative sieve</point>
-        <point>Provides a class for arithmetic operations on prime factorizations via overloading</point>
-        <point>Number theory utilities such as Euler-Phi, tests for abundance/weirdness and greatest common divisor</point>
-    </project>
-
-    <project>
-        <title>EncryptBackup</title>
-        <brief>Easier management of external backups</brief>
-        <point>Backs up data piecewise across multiple encrypted block devices using LUKS/dm-crypt</point>
-        <point>Automatic block device recognition for different stages of backup</point>
-    </project>
-
 </projects>
 
 <hobbies>
