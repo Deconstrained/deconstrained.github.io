@@ -5,7 +5,7 @@
 
 <resume>
 
-<areas><!-- Areas of Expertise -->
+<areas><!-- Areas of Expertise (filter/adjust resume by categories); WIP -->
     <meta-area name="Software Development Engineering" metacat="sde" />
     <meta-area name="Academic" metacat="aca" />
     <meta-area name="DevOps" metacat="devops" />

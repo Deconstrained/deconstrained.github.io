@@ -9,14 +9,12 @@
 <!ELEMENT achievements (achievement+)>
 <!ELEMENT projects (project+)>
 
-<!ELEMENT projects 
-
-<!-- personal::children  -->
+<!-- personal::children -->
 <!ELEMENT identity (fullname|contact)*>
 <!ELEMENT strengths (point+)>
 
 <!-- areas::children -->
-<!ELEMENT meta-area>
+<!ELEMENT meta-area EMPTY>
 
 <!-- skills::children -->
 <!ELEMENT skillset (skill+)>
