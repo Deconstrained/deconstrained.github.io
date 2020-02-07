@@ -61,36 +61,38 @@
 <skills type="Technical">
 
     <skillset type="Language" cat="sde">
-        <skill>Bash</skill>
-        <skill>C</skill>
-        <skill>JavaScript</skill>
-        <skill>MySQL</skill>
         <skill>Python</skill>
         <skill>Ruby</skill>
+        <skill>Elixir</skill>
+        <skill>Bash</skill>
+        <skill>JavaScript</skill>
+        <skill>MySQL</skill>
+        <skill>C</skill>
     </skillset>
 
     <skillset type="Cloud, DevOps and IT" cat="sde">
-        <skill>AWS</skill>
         <skill>Ansible</skill>
+        <skill>AWS</skill>
         <skill>Docker</skill>
-        <skill>Linux</skill>
+        <skill>Nomad</skill>
+        <skill>Chef</skill>
         <skill>JIRA</skill>
-        <skill>Nagios</skill>
+        <skill>PagerDuty</skill>
         <skill>ServiceNow</skill>
         <skill>Splunk</skill>
         <skill>SumoLogic</skill>
-        <skill>Vi</skill>
     </skillset>
 
     <skillset type="Web Development" cat="web">
-        <skill>CSS3</skill>
+        <skill>Ruby on Rails</skill>
         <skill>Falcon Framework</skill>
+        <skill>Phoenix Framework</skill>
         <skill>Foundation</skill>
         <skill>HTML5</skill>
+        <skill>CSS3/SASS</skill>
         <skill>JavaScript</skill>
         <skill>JSON</skill>
         <skill>PHP</skill>
-        <skill>SASS</skill>
         <skill>WordPress</skill>
         <skill>XML</skill>
         <skill>Yii Framework</skill>
@@ -108,14 +110,15 @@
         <skill>LaTeX</skill>
     </skillset>
 
-    <skillset type="Software and Low-level IT" cat="it,sde,academic">
+    <skillset type="Software" cat="it,sde,academic">
         <skill>Linux</skill>
-        <skill>Apache/Nginx</skill>
+        <skill>Nginx</skill>
+        <skill>Apache</skill>
         <skill>Nagios</skill>
         <skill>GnuPG</skill>
         <skill>Git</skill>
-        <skill>Vim</skill>
         <skill>Asterisk</skill>
+        <skill>Vi/Vim</skill>
     </skillset>
 
 </skills>
@@ -125,6 +128,10 @@
     <position pos="at" org="PagerDuty, Inc." location="San Francisco, CA" href="https://www.pagerduty.com">
         <dates start="July 2019" end="present" />
         <title>Associate Software Engineer</title>
+        <duty>Maintenance and revival of aging services according to organization-wide standard devops practices</duty>
+        <duty>Bug patching</duty>
+        <duty>Network and service diagnostics</duty>
+        <duty>Refactoring and elimination of tech debt</duty>
     </position>
 
     <position pos="at" org="PagerDuty, Inc." location="San Francisco, CA" href="https://www.pagerduty.com">
@@ -136,7 +143,7 @@
         <duty>Bug identification, diagnostics, reverse-engineering and reporting</duty>
         <duty>Maintenance, improvement and authorship of internal support tooling and documentation</duty>
         <accomplishment>Improved long-term maintainability, security, stability, documentation and performance of account cloning tool.</accomplishment>
-        <accomplishment>Created and documented a PagerDuty REST/Events API client for Python 2/3</accomplishment>
+        <accomplishment>Created and documented a popular PagerDuty API client for Python</accomplishment>
         <accomplishment>Won Sales Achievers Award 2019: Services MVP</accomplishment>
         <!-- Pending: -->
         <!-- <accomplishment>Developed secure deployment and management system for internal support ticket dashboard using Ansible</accomplishment> -->
