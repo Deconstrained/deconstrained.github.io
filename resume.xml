@@ -6,10 +6,10 @@
 <resume>
 
 <areas><!-- Areas of Expertise (filter/adjust resume by categories); WIP -->
-    <meta-area name="Software Development Engineering" metacat="sde" />
+    <meta-area name="Software Development" metacat="sde" />
     <meta-area name="Academic" metacat="aca" />
-    <meta-area name="DevOps" metacat="devops" />
-    <meta-area name="IT and Systems Administration" metacat="it" />
+    <meta-area name="Site Reliability Engineering" metacat="devops" />
+    <meta-area name="Linux System Administration" metacat="it" />
     <meta-area name="Education" metacat="edu" />
     <meta-area name="Food Service" metacat="fds" />
     <meta-area name="Industrial &amp; Shipping" metacat="blc" />
@@ -32,25 +32,25 @@
 
     <strengths><!-- Type any and all strong points here, specify the specialization as a comma-delinated type attribute-->
         <!-- "I am a/an"s -->
-        <point cat="aca,it,edu,sde,devops">resourceful autodidact</point>
-        <point cat="aca,it,edu,sde,devops">experienced problem-solving communicator</point>
+        <point cat="aca,it,edu,sde,devops">technical problem-solver</point>
+        <point cat="aca,it,edu,sde,devops"></point>
         <point cat="sde">contributor to projects and frameworks at early and late stage</point>
         <!-- "I/I have...-->
         <!-- <point cat="fds,blc">Can safely lift objects up to 30 pounds</point> -->
-        <!-- <point cat="blc,it">Experience with power tools, pallet jack and household hazardous materials</point> -->
-        <!-- <point cat="fds">Two years' prep cook and dishwashing experience in professional setting.</point> -->
+        <!-- <point cat="blc,it">Experience working safely with power tools, pallet jack and household hazardous materials</point> -->
+        <!-- <point cat="fds">Two years' prep cook and dishwashing experience in a professional setting.</point> -->
     </strengths>
 
 </personal>
 
 <expertise>
     <area cat="it">systems administration</area>
-    <area cat="it,sde">devops</area>
+    <area cat="it,sde">site reliability engineering</area>
     <area cat="it">network configuration &amp; troubleshooting</area>
-    <area cat="sde">test-driven development</area>
+    <area cat="sde">software development</area>
     <area cat="it">customer support</area>
-    <area cat="it,sde">software integrations</area>
-    <area cat="sde">web development</area>
+    <area cat="it,sde">software integration</area>
+    <area cat="sde">web technologies</area>
     <area cat="aca">computational physics</area>
     <area cat="aca">tutoring</area>
 </expertise>
@@ -61,45 +61,36 @@
         <skill>Python</skill>
         <skill>Ruby</skill>
         <skill>Elixir</skill>
-        <skill>Bash</skill>
+        <skill>Shell</skill>
         <skill>JavaScript</skill>
-        <skill>MySQL</skill>
-        <skill>C</skill>
+        <skill>Golang</skill>
+        <skill>SQL</skill>
     </skillset>
 
     <skillset type="Cloud, DevOps and IT" cat="sde">
-        <skill>Ansible</skill>
         <skill>AWS</skill>
-        <skill>Docker</skill>
-        <skill>Nomad</skill>
+        <skill>Ansible</skill>
+        <skill>Buildkite</skill>
         <skill>Chef</skill>
-        <skill>JIRA</skill>
+        <skill>CircleCI</skill>
+        <skill>Datadog</skill>
+        <skill>Docker</skill>
+        <skill>Hashicorp Nomad, Vault and Consul</skill>
+        <skill>Istio</skill>
+        <skill>Kubernetes</skill>
         <skill>PagerDuty</skill>
-        <skill>ServiceNow</skill>
-        <skill>Splunk</skill>
         <skill>SumoLogic</skill>
+        <skill>Terraform</skill>
     </skillset>
 
     <skillset type="Web Development" cat="web">
-        <skill>Ruby on Rails</skill>
-        <skill>Falcon Framework</skill>
-        <skill>Phoenix Framework</skill>
-        <skill>Foundation</skill>
-        <skill>HTML5</skill>
-        <skill>CSS3/SASS</skill>
-        <skill>JavaScript</skill>
-        <skill>JSON</skill>
-        <skill>PHP</skill>
+        <skill>Web frameworks incl. Ruby on Rails, Falcon, Phoenix &amp; Yii</skill>
         <skill>WordPress</skill>
-        <skill>XML</skill>
-        <skill>Yii Framework</skill>
-        <skill>jQuery</skill>
     </skillset>
 
     <skillset type="Scientific Computing and Research" cat="aca">
         <skill>Fortran 77/90</skill>
         <skill>OpenMPI</skill>
-        <skill>IDL</skill>
         <skill>MatLab/Octave</skill>
         <skill>Mathematica</skill>
         <skill>NumPy</skill>
@@ -112,39 +103,47 @@
         <skill>Nginx</skill>
         <skill>Apache</skill>
         <skill>Nagios</skill>
-        <skill>GnuPG</skill>
-        <skill>Git</skill>
         <skill>Asterisk</skill>
-        <skill>Vi/Vim</skill>
     </skillset>
 
 </skills>
 
 <experience>
+    <position pos="at" org="PagerDuty, Inc." location="Remote" href="https://www.pagerduty.com">
+        <dates start="April 2021" end="Present" />
+        <title>Site Reliability Engineer</title>
+        <duty>Zero-downtime upgrades of load-bearing software systems</duty>
+        <duty>Provisioning and automation of infrastructure-as-a-service resources</duty>
+        <duty>Credential rotation and secrets management</duty>
+        <duty>Observability systems management</duty>
+        <duty>Incident response</duty>
+        <accomplishment>Developed a host provisioning system to overcome the Elastic Cloud Compute launch template user data limit</accomplishment>
+        <accomplishment>Replaced a costly site monitoring management process with a serverless equivalent using Buildkite</accomplishment>
+        <accomplishment>Seamlessly migrated a service from Nomad to Kubernetes</accomplishment>
+        <accomplishment>Implemented Route53 resolver rules for service discovery</accomplishment>
+        <accomplishment>Acted as project lead in the graceful decommissioning of several high-cost services</accomplishment>
+    </position>
 
-    <position pos="at" org="PagerDuty, Inc." location="San Francisco, CA" href="https://www.pagerduty.com">
-        <dates start="July 2019" end="present" />
-        <title>Associate Software Engineer</title>
-        <duty>Maintenance and revival of aging services according to organization-wide standard devops practices</duty>
-        <duty>Bug patching</duty>
+    <position pos="at" org="PagerDuty, Inc." location="San Francisco, CA / Remote" href="https://www.pagerduty.com">
+        <dates start="July 2019" end="April 2021" />
+        <title>Software Development Engineer</title>
+        <duty>Ruby and Rails upgrades of a load-bearing monolith application</duty>
         <duty>Network and service diagnostics</duty>
-        <duty>Refactoring and elimination of tech debt</duty>
+        <duty>Refactoring, bug patching and maintenance of core application services</duty>
+        <duty>Incident response</duty>
+        <accomplishment>Developed an internal administrative web application</accomplishment>
     </position>
 
     <position pos="at" org="PagerDuty, Inc." location="San Francisco, CA" href="https://www.pagerduty.com">
         <dates start="December 2016" end="June 2019" />
         <title>Technical Support Engineer</title>
-        <duty>In-depth technical analysis of customer support issues</duty>
-        <duty>Integrations troubleshooting</duty>
-        <duty>API usage troubleshooting, documentation and advocacy</duty>
-        <duty>Bug identification, diagnostics, reverse-engineering and reporting</duty>
+        <duty>Managing escalated customer support issues</duty>
+        <duty>API integration troubleshooting, documentation and developer advocacy</duty>
+        <duty>Bug diagnostics and reverse engineering</duty>
         <duty>Maintenance, improvement and authorship of internal support tooling and documentation</duty>
-        <accomplishment>Improved long-term maintainability, security, stability, documentation and performance of account cloning tool.</accomplishment>
-        <accomplishment>Created and documented a popular PagerDuty API client for Python</accomplishment>
+        <accomplishment>Improved long-term maintainability, security, stability, documentation and performance of the account cloning tool</accomplishment>
+        <accomplishment>Created, documented and maintained a popular, long-lived PagerDuty API client for Python</accomplishment>
         <accomplishment>Won Sales Achievers Award 2019: Services MVP</accomplishment>
-        <!-- Pending: -->
-        <!-- <accomplishment>Developed secure deployment and management system for internal support ticket dashboard using Ansible</accomplishment> -->
-        <!-- /Pending -->
     </position>
 
     <position pos="at" org="Hurricane Electric LLC"  location="Fremont, CA" href="http://he.net/">
