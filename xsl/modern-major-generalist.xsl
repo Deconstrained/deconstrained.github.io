@@ -46,18 +46,6 @@
     </xsl:for-each>
 </ul><!-- #expertise -->
 
-<h2>Skills</h2>
-<xsl:for-each select="skills/skillset">
-    <h3><xsl:value-of select="./@type" /></h3>
-    <ul class="bulletcloud">
-        <xsl:for-each select="skill">
-            <li><xsl:value-of select="." /></li>
-        </xsl:for-each><!-- </skillset> -->
-    </ul>
-</xsl:for-each><!-- </skills> -->
-
-
-
 <h2>Experience</h2>
 <xsl:for-each select="experience/position">
     <h3>
@@ -100,6 +88,16 @@
         </ul>
     </xsl:if>
 </xsl:for-each><!-- </experience> -->
+
+<h2>Skills</h2>
+<xsl:for-each select="skills/skillset">
+    <h3><xsl:value-of select="./@type" /></h3>
+    <ul class="bulletcloud">
+        <xsl:for-each select="skill">
+            <li><xsl:value-of select="." /></li>
+        </xsl:for-each><!-- </skillset> -->
+    </ul>
+</xsl:for-each><!-- </skills> -->
 
 <!-- TODO: Make a section for GitHub projects -->
 
