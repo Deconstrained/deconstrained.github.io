@@ -60,7 +60,7 @@
 
 <skills type="Technical">
 
-    <skillset type="Language" cat="sde">
+    <skillset type="Languages" cat="sde">
         <skill>Python</skill>
         <skill>Ruby</skill>
         <skill>Elixir</skill>
