@@ -56,21 +56,24 @@
                 </xsl:when>
             </xsl:choose>
             <xsl:value-of select="." />
+            <xsl:value-of select="./@pos" />
         </xsl:for-each><!-- </title> -->
-    </h3> 
-    <xsl:variable name="org">
-        <xsl:text>
-        </xsl:text>
-        <xsl:choose>
-            <xsl:when test="./@href">
-                <a href="{./@href}"><xsl:value-of select="./@org" /></a>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="./@org" />
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:variable>
-    <em><xsl:value-of select="./@pos" />&#160;<xsl:copy-of select="$org" />,</em> From <xsl:value-of select="dates/@start" /> to <xsl:value-of select="dates/@end" />;<br />
+        <xsl:variable name="org">
+            <xsl:text>
+            </xsl:text>
+            <xsl:choose>
+                <xsl:when test="./@href">
+                    <a href="{./@href}"><xsl:value-of select="./@org" /></a>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="./@org" />
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        &#160;<xsl:value-of select="./@pos" />&#160;<xsl:copy-of select="$org" />
+    </h3>
+    <span class="at-org-during">From <xsl:value-of select="dates/@start" /> to <xsl:value-of select="dates/@end" /></span>
+    <br />
     <xsl:if test="duty">
         <em>Duties:</em> 
         <ul class="breakdown">

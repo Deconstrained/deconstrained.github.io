@@ -1,2 +1,8 @@
 .sass-cache
 .htaccess
+*.swp
+*.map
+*.woff*
+*.eot
+*.svg
+*.ttf

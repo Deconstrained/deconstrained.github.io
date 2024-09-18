@@ -10,6 +10,13 @@ h1, h2, hr {
 h2 {
   border-bottom: 0.1em solid gray; }
 
+h3 {
+  margin-bottom: 0; }
+
+span.at-org-during {
+  font-size: 0.8em;
+  margin-bottom: 0.2em; }
+
 a {
   color: #66A;
   text-decoration: none; }
@@ -78,18 +85,21 @@ img#portrait {
   src: url(../fontawesome/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../fontawesome/fa-regular-400.woff) format("woff"), url(../fontawesome/fa-regular-400.woff2) format("woff2"), url(../fontawesome/fa-regular-400.ttf) format("truetype"), url(../fontawesome/fa-regular-400.svg) format("svg");
   font-style: normal;
   font-weight: normal; }
+
 @font-face {
   font-family: 'FontAwesomeSolid';
   src: url(../fontawesome/fa-solid-900.eot);
   src: url(../fontawesome/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../fontawesome/fa-solid-900.woff) format("woff"), url(../fontawesome/fa-solid-900.woff2) format("woff2"), url(../fontawesome/fa-solid-900.ttf) format("truetype"), url(../fontawesome/fa-solid-900.svg) format("svg");
   font-style: normal;
   font-weight: normal; }
+
 @font-face {
   font-family: 'FontAwesomeBrands';
   src: url(../fontawesome/fa-brands-400.eot);
   src: url(../fontawesome/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../fontawesome/fa-brands-400.woff2) format("woff2"), url(../fontawesome/fa-brands-400.woff) format("woff"), url(../fontawesome/fa-brands-400.ttf) format("truetype"), url(../fontawesome/fa-brands-400.svg) format("svg");
   font-style: normal;
   font-weight: normal; }
+
 span.glyph {
   padding: 0 0.3em 0 0.7em; }
 
@@ -125,5 +135,3 @@ span.glyph {
 
 .fa-reddit::before {
   content: "\f281"; }
-
-/*# sourceMappingURL=GenericTech.css.map */
