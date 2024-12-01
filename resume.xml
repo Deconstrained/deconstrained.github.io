@@ -120,31 +120,32 @@
         <duty>Credential rotation and secrets management</duty>
         <duty>Observability systems management</duty>
         <duty>Incident response</duty>
-        <accomplishment>Developed a host provisioning system to overcome the Elastic Cloud Compute launch template user data limit</accomplishment>
-        <accomplishment>Replaced a costly site monitoring management process with a serverless equivalent using Buildkite</accomplishment>
-        <accomplishment>Seamlessly migrated a service from Nomad to Kubernetes</accomplishment>
-        <accomplishment>Implemented Route53 resolver rules for service discovery</accomplishment>
+        <duty>Service mesh</duty>
+        <accomplishment>Developed a VM provisioning bootstrap system to overcome the Elastic Cloud Compute launch template user data limit</accomplishment>
+        <accomplishment>Converted site monitoring management tooling from EC2 to serverless</accomplishment>
+        <accomplishment>Migrated load-bearing services from Nomad to Kubernetes using Route53 traffic splitting</accomplishment>
+        <accomplishment>Implemented Route53 resolver rules for Consul service discovery</accomplishment>
         <accomplishment>Acted as project lead in the graceful decommissioning of several high-cost services</accomplishment>
     </position>
 
     <position pos="at" org="PagerDuty, Inc." location="San Francisco, CA / Remote" href="https://www.pagerduty.com">
         <dates start="July 2019" end="April 2021" />
         <title>Software Development Engineer</title>
-        <duty>Ruby and Rails upgrades of a load-bearing monolith application</duty>
+        <duty>Ruby and Rails upgrades of the central monolithic service</duty>
         <duty>Network and service diagnostics</duty>
         <duty>Refactoring, bug patching and maintenance of core application services</duty>
         <duty>Incident response</duty>
-        <accomplishment>Developed an internal administrative web application</accomplishment>
+        <accomplishment>Contributed development to a widely-used internal administrative web application</accomplishment>
     </position>
 
     <position pos="at" org="PagerDuty, Inc." location="San Francisco, CA" href="https://www.pagerduty.com">
         <dates start="December 2016" end="June 2019" />
         <title>Technical Support Engineer</title>
         <duty>Managing escalated customer support issues</duty>
-        <duty>API integration troubleshooting, documentation and developer advocacy</duty>
+        <duty>API integration troubleshooting, documentation and developer enablement</duty>
         <duty>Bug diagnostics and reverse engineering</duty>
         <duty>Maintenance, improvement and authorship of internal support tooling and documentation</duty>
-        <accomplishment>Improved long-term maintainability, security, stability, documentation and performance of the account cloning tool</accomplishment>
+        <accomplishment>Optimized and migrated to Python 3 the account cloning tool used by Support and Success teams</accomplishment>
         <accomplishment>Created, documented and maintained a popular, long-lived PagerDuty API client for Python</accomplishment>
         <accomplishment>Won Sales Achievers Award 2019: Services MVP</accomplishment>
     </position>
@@ -158,7 +159,7 @@
         <duty>Cable management</duty>
         <duty>Network, email and web hosting troubleshooting</duty>
         <duty>Internal network and system administration tool development</duty>
-        <accomplishment>Created a WordPress vulnerability scanning system</accomplishment>
+        <accomplishment>Created a scanning system to detect vulnerable WordPress installations in customer environments</accomplishment>
         <accomplishment>Developed a domain zone auditor for detecting problematic DNS configurations</accomplishment>
     </position>
 
@@ -189,7 +190,6 @@
         <accomplishment>Implemented components of Gadget-2 in a planetary nebula simulation</accomplishment>
         <accomplishment>Developed data parsing, reduction and visualization tools</accomplishment>
         <accomplishment>Redesigned single-threaded scientific computing applications for running as multiple threads in parallel with OpenMPI</accomplishment>
-        <accomplishment>Documentation</accomplishment>
     </position>
 
     <position pos="for" org="Life Lab Science Program" location="Santa Cruz, CA" href="http://www.lifelab.org/">
