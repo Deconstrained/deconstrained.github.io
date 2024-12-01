@@ -29,7 +29,7 @@
 <!ELEMENT project (title,brief,point*)>
 
 <!-- personal::contact::children -->
-<!ELEMENT contact (email|facebook|github|google-plus|linkedin|phone|pubkey|reddit|site|twitter)*>
+<!ELEMENT contact (email|telephone|facebook|github|linkedin|bluesky|site)*>
 
 <!-- Leaf node descriptors -->
 <!ELEMENT accomplishment CDATA>
@@ -44,13 +44,12 @@
 <!ELEMENT facebook CDATA>
 <!ELEMENT fullname CDATA>
 <!ELEMENT github CDATA>
-<!ELEMENT google-plus CDATA>
 <!ELEMENT linkedin CDATA>
 <!ELEMENT meta-area EMPTY>
 <!ELEMENT twitter CDATA>
 <!ELEMENT site CDATA>
 <!ELEMENT site CDATA>
-<!ELEMENT phone CDATA>
+<!ELEMENT telephone CDATA>
 <!ELEMENT point CDATA>
 <!ELEMENT pubkey CDATA>
 <!ELEMENT skill CDATA>
@@ -89,10 +88,8 @@
 <!ATTLIST email %type;>
 <!ATTLIST facebook %href;>
 <!ATTLIST github %href;>
-<!ATTLIST google-plus %href;>
 <!ATTLIST linkedin %href;>
-<!ATTLIST twitter %href;>
-<!ATTLIST reddit %href;>
+<!ATTLIST bluesky %href;>
 <!ATTLIST site %href;>
 <!ATTLIST phone %type;>
 <!ATTLIST position location CDATA #IMPLIED pos CDATA #IMPLIED org CDATA #IMPLIED href CDATA #IMPLIED>
