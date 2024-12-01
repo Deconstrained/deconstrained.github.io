@@ -19,11 +19,11 @@
     <div id="contact">
         <ul class="plaincloud">
             <xsl:for-each select="personal/identity/contact/*">
-                <li><span class="glyph fa fa-{name(.)}" aria-hidden="true"></span>
+                <li><span class="" aria-hidden="true"></span>
                 <xsl:choose>
-                    <xsl:when test="name() = 'email'"><a href="mailto:{.}" title="email"><xsl:value-of select="." /></a></xsl:when>
-                    <xsl:when test="name() = 'phone'"><a href="tel:{.}" title="{./@type}"><xsl:value-of select="." /></a></xsl:when>
-                    <xsl:otherwise><a href="{./@href}"><xsl:value-of select="." /></a></xsl:otherwise>
+                    <xsl:when test="name() = 'email'">email: <a href="mailto:{.}" title="email"><xsl:value-of select="." /></a></xsl:when>
+                    <xsl:when test="name() = 'telephone'">telephone: <a href="tel:{.}" title="{./@type}"><xsl:value-of select="." /></a></xsl:when>
+                    <xsl:otherwise><xsl:value-of select="name(.)" />: <a href="{./@href}"><xsl:value-of select="." /></a></xsl:otherwise>
                 </xsl:choose>
                 </li>
             </xsl:for-each>
